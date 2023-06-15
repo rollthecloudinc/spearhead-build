@@ -48,11 +48,11 @@ export const panelpages = [
 						},
 						{
 							"attributes": [],
-							"computedValue": "This is a hedge compatibility test.",
+							"computedValue": "This is a hedge compatibility test. Modified.",
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "This is a hedge compatibility test."
+							"value": "This is a hedge compatibility test. Modified."
 						},
 						{
 							"attributes": [],
