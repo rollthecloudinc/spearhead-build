@@ -1,0 +1,76 @@
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./JsonChartModule",
+				"moduleName": "JsonChartModule",
+				"remoteEntry": "https://rollthecloudinc.github.io/plugin-amcharts5-build/remoteEntry.js"
+			},
+			"name": "chart_module",
+			"plugin": "module"
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [],
+	"id": "479f66de-7468-47fa-a649-9fd476b754ab",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "test_amcharts5_plugin_v1",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": [ ]
+			},
+			"label": "",
+			"name": "",
+			"panes": [
+				{
+					"contentPlugin": "amcharts5_json_chart",
+					"label": "",
+					"linkedPageId": "",
+					"locked": false,
+					"name": "",
+					"rule": {
+						"condition": "",
+						"field": "",
+						"operator": "",
+						"rules": [ ],
+						"value": ""
+					},
+					"settings": [ ]
+				}
+			],
+			"settings": [ ],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-amcharts5-plugin-v1",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test AmCharts5 Plugin v1",
+	"userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
+}
