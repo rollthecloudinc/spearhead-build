@@ -5,7 +5,7 @@
 			"data": {
 				"exposedModule": "./JsonChartModule",
 				"moduleName": "JsonChartModule",
-				"remoteEntry": "http://localhost:49530/remoteEntry.js"
+				"remoteEntry": "http://localhost:3000/remoteEntry.js"
 			},
 			"name": "chart_module",
 			"plugin": "module"

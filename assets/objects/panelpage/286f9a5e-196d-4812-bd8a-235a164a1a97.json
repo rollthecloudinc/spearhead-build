@@ -1,0 +1,80 @@
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./JsonChartModule",
+				"moduleName": "JsonChartModule",
+				"remoteEntry": "http://localhost:3000/remoteEntry.js"
+			},
+			"name": "chart_module",
+			"plugin": "module"
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [],
+	"id": "286f9a5e-196d-4812-bd8a-235a164a1a97",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "am_charts_visual_editor_bar_chart_test",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "amcharts5_json_chart",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "{\n    \"type\": \"XYChart\",\n    \"data\": [{\n        \"category\": \"Category #1\",\n        \"value\": 3336\n    }, {\n        \"category\": \"Category #2\",\n        \"value\": 2517\n    }, {\n        \"category\": \"Category #3\",\n        \"value\": 784\n    }, {\n        \"category\": \"Category #4\",\n        \"value\": 2388\n    }, {\n        \"category\": \"Category #5\",\n        \"value\": 3581\n    }, {\n        \"category\": \"Category #6\",\n        \"value\": 690\n    }, {\n        \"category\": \"Category #7\",\n        \"value\": 4292\n    }, {\n        \"category\": \"Category #8\",\n        \"value\": 2254\n    }],\n    \"xAxes\": [{\n        \"type\": \"ValueAxis\"\n    }],\n    \"yAxes\": [{\n        \"type\": \"CategoryAxis\",\n        \"dataFields\": {\n            \"category\": \"category\"\n        }\n    }],\n    \"series\": [{\n        \"type\": \"ColumnSeries\",\n        \"columns\": {\n            \"template\": {\n                \"type\": \"Column\",\n                \"strokeOpacity\": 0,\n                \"tooltipText\": \"{categoryY}\\n{valueX}\",\n                \"tooltipPosition\": \"pointer\"\n            }\n        },\n        \"dataFields\": {\n            \"valueX\": \"value\",\n            \"categoryY\": \"category\"\n        },\n        \"sequencedInterpolation\": true,\n        \"sequencedInterpolationDelay\": 100\n    }]\n}",
+							"displayName": "JSON",
+							"name": "json",
+							"type": 1,
+							"value": "{\n    \"type\": \"XYChart\",\n    \"data\": [{\n        \"category\": \"Category #1\",\n        \"value\": 3336\n    }, {\n        \"category\": \"Category #2\",\n        \"value\": 2517\n    }, {\n        \"category\": \"Category #3\",\n        \"value\": 784\n    }, {\n        \"category\": \"Category #4\",\n        \"value\": 2388\n    }, {\n        \"category\": \"Category #5\",\n        \"value\": 3581\n    }, {\n        \"category\": \"Category #6\",\n        \"value\": 690\n    }, {\n        \"category\": \"Category #7\",\n        \"value\": 4292\n    }, {\n        \"category\": \"Category #8\",\n        \"value\": 2254\n    }],\n    \"xAxes\": [{\n        \"type\": \"ValueAxis\"\n    }],\n    \"yAxes\": [{\n        \"type\": \"CategoryAxis\",\n        \"dataFields\": {\n            \"category\": \"category\"\n        }\n    }],\n    \"series\": [{\n        \"type\": \"ColumnSeries\",\n        \"columns\": {\n            \"template\": {\n                \"type\": \"Column\",\n                \"strokeOpacity\": 0,\n                \"tooltipText\": \"{categoryY}\\n{valueX}\",\n                \"tooltipPosition\": \"pointer\"\n            }\n        },\n        \"dataFields\": {\n            \"valueX\": \"value\",\n            \"categoryY\": \"category\"\n        },\n        \"sequencedInterpolation\": true,\n        \"sequencedInterpolationDelay\": 100\n    }]\n}"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/am-charts-visual-editor-bar-chart-test",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Visual Editor Bar Chart",
+	"userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
+}

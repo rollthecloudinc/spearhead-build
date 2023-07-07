@@ -1,0 +1,76 @@
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./JsonChartModule",
+				"moduleName": "JsonChartModule",
+				"remoteEntry": "http://localhost:3000/remoteEntry.js"
+			},
+			"name": "chart_module",
+			"plugin": "module"
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [],
+	"id": "d75c2267-0eb1-4238-ad0e-7d4b0d1d4801",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "plugin-amcharts-refs-test-1",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "amcharts5_json_chart",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "{\n  \"type\": \"XYChart\",\n  \"refs\": {\n    \"data\": [\n      { \"date\": 1652425200000, \"value\": 92 },\n      { \"date\": 1652511600000, \"value\": 95 },\n      { \"date\": 1652598000000, \"value\": 100 },\n      { \"date\": 1652684400000, \"value\": 100 },\n      { \"date\": 1652770800000, \"value\": 96 },\n      { \"date\": 1652857200000, \"value\": 97 },\n      { \"date\": 1652943600000, \"value\": 94 },\n      { \"date\": 1653030000000, \"value\": 89 },\n      { \"date\": 1653116400000, \"value\": 89 },\n      { \"date\": 1653202800000, \"value\": 87 },\n      { \"date\": 1653289200000, \"value\": 84 },\n      { \"date\": 1653375600000, \"value\": 81 },\n      { \"date\": 1653462000000, \"value\": 85 },\n      { \"date\": 1653548400000, \"value\": 89 },\n      { \"date\": 1653634800000, \"value\": 86 },\n      { \"date\": 1653721200000, \"value\": 90 },\n      { \"date\": 1653807600000, \"value\": 93 },\n      { \"date\": 1653894000000, \"value\": 94 },\n      { \"date\": 1653980400000, \"value\": 94 },\n      { \"date\": 1654066800000, \"value\": 96 }\n    ],\n    \"xAxis\": {\n      \"type\": \"DateAxis\",\n      \"settings\": {\n        \"baseInterval\": {\n          \"timeUnit\": \"day\",\n          \"count\": 1\n        },\n        \"renderer\": {\n          \"type\": \"AxisRendererX\"\n        }\n      }\n    },\n    \"yAxis\": {\n      \"type\": \"ValueAxis\",\n      \"settings\": {\n        \"renderer\": {\n          \"type\": \"AxisRendererY\"\n        }\n      }\n    },\n  },\n  \"settings\": {\n    \"panX\": false,\n    \"panY\": false,\n    \"wheelX\": \"panX\",\n    \"wheelY\": \"zoomX\",\n    \"scrollbarX\": {\n      \"type\": \"Scrollbar\",\n      \"settings\": {\n        \"orientation\": \"horizontal\"\n      }\n    }\n  },\n  \"properties\": {\n    \"xAxes\": [\n      \"#xAxis\"\n    ],\n    \"yAxes\": [\n      \"#yAxis\"\n    ],\n    \"series\": [\n      {\n        \"type\": \"LineSeries\",\n        \"settings\": {\n          \"name\": \"Series\",\n          \"xAxis\": \"#xAxis\",\n          \"yAxis\": \"#yAxis\",\n          \"valueYField\": \"value\",\n          \"valueXField\": \"date\",\n          \"tooltip\": {\n            \"type\": \"Tooltip\",\n            \"settings\": {\n              \"labelText\": \"{valueX}: {valueY}\"\n            }\n          },\n        },\n        \"properties\": {\n          \"data\": \"#data\"\n        }\n      }\n    ]\n  }\n}",
+							"displayName": "JSON",
+							"name": "json",
+							"type": 1,
+							"value": "{\n  \"type\": \"XYChart\",\n  \"refs\": {\n    \"data\": [\n      { \"date\": 1652425200000, \"value\": 92 },\n      { \"date\": 1652511600000, \"value\": 95 },\n      { \"date\": 1652598000000, \"value\": 100 },\n      { \"date\": 1652684400000, \"value\": 100 },\n      { \"date\": 1652770800000, \"value\": 96 },\n      { \"date\": 1652857200000, \"value\": 97 },\n      { \"date\": 1652943600000, \"value\": 94 },\n      { \"date\": 1653030000000, \"value\": 89 },\n      { \"date\": 1653116400000, \"value\": 89 },\n      { \"date\": 1653202800000, \"value\": 87 },\n      { \"date\": 1653289200000, \"value\": 84 },\n      { \"date\": 1653375600000, \"value\": 81 },\n      { \"date\": 1653462000000, \"value\": 85 },\n      { \"date\": 1653548400000, \"value\": 89 },\n      { \"date\": 1653634800000, \"value\": 86 },\n      { \"date\": 1653721200000, \"value\": 90 },\n      { \"date\": 1653807600000, \"value\": 93 },\n      { \"date\": 1653894000000, \"value\": 94 },\n      { \"date\": 1653980400000, \"value\": 94 },\n      { \"date\": 1654066800000, \"value\": 96 }\n    ],\n    \"xAxis\": {\n      \"type\": \"DateAxis\",\n      \"settings\": {\n        \"baseInterval\": {\n          \"timeUnit\": \"day\",\n          \"count\": 1\n        },\n        \"renderer\": {\n          \"type\": \"AxisRendererX\"\n        }\n      }\n    },\n    \"yAxis\": {\n      \"type\": \"ValueAxis\",\n      \"settings\": {\n        \"renderer\": {\n          \"type\": \"AxisRendererY\"\n        }\n      }\n    },\n  },\n  \"settings\": {\n    \"panX\": false,\n    \"panY\": false,\n    \"wheelX\": \"panX\",\n    \"wheelY\": \"zoomX\",\n    \"scrollbarX\": {\n      \"type\": \"Scrollbar\",\n      \"settings\": {\n        \"orientation\": \"horizontal\"\n      }\n    }\n  },\n  \"properties\": {\n    \"xAxes\": [\n      \"#xAxis\"\n    ],\n    \"yAxes\": [\n      \"#yAxis\"\n    ],\n    \"series\": [\n      {\n        \"type\": \"LineSeries\",\n        \"settings\": {\n          \"name\": \"Series\",\n          \"xAxis\": \"#xAxis\",\n          \"yAxis\": \"#yAxis\",\n          \"valueYField\": \"value\",\n          \"valueXField\": \"date\",\n          \"tooltip\": {\n            \"type\": \"Tooltip\",\n            \"settings\": {\n              \"labelText\": \"{valueX}: {valueY}\"\n            }\n          },\n        },\n        \"properties\": {\n          \"data\": \"#data\"\n        }\n      }\n    ]\n  }\n}"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/plugin-amcharts-refs-test-1",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "plugin-amcharts-refs-test-1",
+	"userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
+}
