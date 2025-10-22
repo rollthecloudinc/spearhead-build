@@ -1,0 +1,2 @@
+(self.webpackChunkspear=self.webpackChunkspear||[]).push([[6362],{86362:(M,u,_)=>{_.d(u,{p:()=>p});var r=_(63398),s=_(43288),a=_(40642),d=_(49431),o=_(80097),p=function(){var n,e=(0,r.A)(function l(){(0,s.A)(this,l)});return n=e,(0,a.A)(e,"\u0275fac",function(t){return new(t||n)}),(0,a.A)(e,"\u0275mod",d.\u0275\u0275defineNgModule({type:n})),(0,a.A)(e,"\u0275inj",d.\u0275\u0275defineInjector({imports:[o.y,o.y]})),e}()}}]);
+//# sourceMappingURL=6362.de71c1a661d21dc8.js.map

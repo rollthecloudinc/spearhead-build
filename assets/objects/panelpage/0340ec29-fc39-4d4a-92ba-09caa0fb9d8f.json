@@ -1,0 +1,350 @@
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./GalleryModule",
+				"moduleName": "GalleryModule",
+				"remoteEntry": "http://localhost:3000/remoteEntry.js"
+			},
+			"name": "gallery",
+			"plugin": "module"
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			""
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"cols": 50,
+			"rows": 1,
+			"weight": 1,
+			"x": 1,
+			"y": 0
+		},
+		{
+			"cols": 33,
+			"rows": 1,
+			"weight": 2,
+			"x": 2,
+			"y": 0
+		},
+		{
+			"cols": 25,
+			"rows": 1,
+			"weight": 3,
+			"x": 3,
+			"y": 0
+		}
+	],
+	"id": "0340ec29-fc39-4d4a-92ba-09caa0fb9d8f",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-gallery-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "gallery_gallery_item",
+					"contexts": [],
+					"label": "gallery",
+					"locked": false,
+					"name": "gallery",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "bindingOption",
+							"name": "bindingOption",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "query",
+							"name": "query",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "[.type]",
+							"displayName": "typeMapping",
+							"name": "typeMapping",
+							"type": 1,
+							"value": "[.type]"
+						},
+						{
+							"attributes": [],
+							"computedValue": "[.src]",
+							"displayName": "imageMapping",
+							"name": "imageMapping",
+							"type": 1,
+							"value": "[.src]"
+						}
+					]
+				},
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Data",
+					"locked": false,
+					"name": "data",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "{\"images\":[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]}",
+									"displayName": "data",
+									"name": "data",
+									"type": 1,
+									"value": "{\"images\":[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]}"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "pane",
+													"displayName": "type",
+													"name": "type",
+													"type": 1,
+													"value": "pane"
+												},
+												{
+													"attributes": [],
+													"computedValue": "selectMedia",
+													"displayName": "id",
+													"name": "id",
+													"type": 1,
+													"value": "selectMedia"
+												}
+											],
+											"computedValue": null,
+											"displayName": "0",
+											"name": "0",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Select Media",
+					"locked": false,
+					"name": "selectMedia",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "select",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "select"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "$.images.*",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": "$.images.*"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-gallery-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "Flex Grow",
+					"name": "flexGrow",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "Flex Shrink",
+					"name": "flexShrink",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "Flex Basis",
+					"name": "flexBasis",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"computedValue": "100%",
+					"displayName": "Height",
+					"name": "height",
+					"type": 1,
+					"value": "100%"
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "Direction",
+					"name": "direction",
+					"type": 1,
+					"value": ""
+				}
+			]
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Gallery int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

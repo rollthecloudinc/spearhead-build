@@ -1,0 +1,319 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "2d94ada8-53f4-4e45-b7e5-8c07c796856d",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "testDatasourceSelectv1",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Data",
+					"locked": false,
+					"name": "data",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "{\"options\": [\n{\"label\": \"one\", \"value\":\"1\"},\n{\"label\": \"two\", \"value\":\"2\"},\n{\"label\": \"three\", \"value\":\"3\"}\n]}",
+									"displayName": "data",
+									"name": "data",
+									"type": 1,
+									"value": "{\"options\": [\n{\"label\": \"one\", \"value\":\"1\"},\n{\"label\": \"two\", \"value\":\"2\"},\n{\"label\": \"three\", \"value\":\"3\"}\n]}"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "pane",
+													"displayName": "type",
+													"name": "type",
+													"type": 1,
+													"value": "pane"
+												},
+												{
+													"attributes": [],
+													"computedValue": "selectOptions",
+													"displayName": "id",
+													"name": "id",
+													"type": 1,
+													"value": "selectOptions"
+												}
+											],
+											"computedValue": null,
+											"displayName": "0",
+											"name": "0",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "form_select",
+					"contexts": [],
+					"label": "select",
+					"locked": false,
+					"name": "select",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "data",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": "data"
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "trackBy",
+									"name": "trackBy",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "[.value]",
+									"displayName": "idMapping",
+									"name": "idMapping",
+									"type": 1,
+									"value": "[.value]"
+								},
+								{
+									"attributes": [],
+									"computedValue": "[.label]",
+									"displayName": "labelMapping",
+									"name": "labelMapping",
+									"type": 1,
+									"value": "[.label]"
+								},
+								{
+									"attributes": [],
+									"computedValue": "[.value]",
+									"displayName": "valueMapping",
+									"name": "valueMapping",
+									"type": 1,
+									"value": "[.value]"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "multiple",
+									"name": "multiple",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "limit",
+									"name": "limit",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceOptions",
+							"name": "datasourceOptions",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Select Options",
+					"locked": false,
+					"name": "selectOptions",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "select",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "select"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "$.options.*",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": "$.options.*"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-datasource-select-v1",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Datasource Select v1",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

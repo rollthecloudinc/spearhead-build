@@ -1,0 +1,278 @@
+{
+	"contexts": [],
+	"displayType": "form",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [],
+	"id": "d4a8f35d-bcf4-412a-a67c-7f6d3fcff2b2",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "post-ad-v1",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "form_input",
+					"contexts": [],
+					"label": "Title",
+					"locked": false,
+					"name": "title",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Title",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": "Title"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/post",
+	"persistence": {
+		"dataduct": {
+			"plugin": "crud",
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "rest",
+					"displayName": "adaptorName",
+					"name": "adaptorName",
+					"type": 1,
+					"value": "rest"
+				},
+				{
+					"attributes": [],
+					"computedValue": "entityName=:entityName",
+					"displayName": "optionsString",
+					"name": "optionsString",
+					"type": 1,
+					"value": "entityName=:entityName"
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "paramsString",
+					"name": "paramsString",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [
+						{
+							"attributes": [
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "static",
+											"displayName": "type",
+											"name": "type",
+											"type": 1,
+											"value": "static"
+										},
+										{
+											"attributes": [],
+											"computedValue": "TestAnAdQuell",
+											"displayName": "value",
+											"name": "value",
+											"type": 1,
+											"value": "TestAnAdQuell"
+										},
+										{
+											"attributes": [],
+											"computedValue": "TestAnAdQuell",
+											"displayName": "testValue",
+											"name": "testValue",
+											"type": 1,
+											"value": "TestAnAdQuell"
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "context",
+											"name": "context",
+											"type": 1,
+											"value": ""
+										}
+									],
+									"displayName": "mapping",
+									"name": "mapping",
+									"type": 2
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "page",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "page"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "0",
+											"name": "0",
+											"type": 2
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "limit",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "limit"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "1",
+											"name": "1",
+											"type": 2
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "offset",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "offset"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "2",
+											"name": "2",
+											"type": 2
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "searchString",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "searchString"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "3",
+											"name": "3",
+											"type": 2
+										}
+									],
+									"displayName": "flags",
+									"name": "flags",
+									"type": 4
+								}
+							],
+							"displayName": "0",
+							"name": "0",
+							"type": 2
+						}
+					],
+					"displayName": "options",
+					"name": "options",
+					"type": 4
+				},
+				{
+					"attributes": [],
+					"displayName": "params",
+					"name": "params",
+					"type": 4
+				}
+			]
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Post Ad v1",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

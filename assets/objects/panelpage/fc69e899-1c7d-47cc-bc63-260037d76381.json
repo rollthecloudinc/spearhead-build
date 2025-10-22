@@ -1,0 +1,122 @@
+{
+	"contexts": [],
+	"displayType": "form",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "fc69e899-1c7d-47cc-bc63-260037d76381",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-simple-form",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "form_input",
+					"contexts": [],
+					"label": "Text",
+					"locked": false,
+					"name": "text",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-simple-form",
+	"persistence": {
+		"dataduct": {
+			"plugin": "entity",
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "TestSimpleForm",
+					"displayName": "entityName",
+					"name": "entityName",
+					"type": 1,
+					"value": "TestSimpleForm"
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "queryString",
+					"name": "queryString",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"displayName": "params",
+					"name": "params",
+					"type": 4
+				}
+			]
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Simple Form",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

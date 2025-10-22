@@ -1,0 +1,26 @@
+{
+	"autocomplete": "",
+	"checkbox": "",
+	"datepicker": "",
+	"id": "ca495fd1-cc7f-4e7a-b700-e2b7d1e8d5a8",
+	"nested": {
+		"nestedValue": ""
+	},
+	"radiogroup": "",
+	"select": "",
+	"slider": "",
+	"terms": [
+		{
+			"humanName": "[ad.results.0.terms.$i.humanName]",
+			"terms": [
+				{
+					"humanName": "[ad.results.0.terms.$i.terms.$i.humanName]"
+				}
+			]
+		}
+	],
+	"text": "",
+	"textarea": "",
+	"toggle": "",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

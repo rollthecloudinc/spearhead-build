@@ -1,0 +1,164 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "41cc92a0-bd34-4c06-a386-bd61b89bced8",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "homes",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Ads",
+					"locked": false,
+					"name": "ads",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "rest",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "rest"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "https://77iwvhc4mf.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/search",
+									"displayName": "url",
+									"name": "url",
+									"type": 1,
+									"value": "https://77iwvhc4mf.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/search"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "params",
+									"name": "params",
+									"type": 4,
+									"value": null
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "{\n  \"query\": {\n  \"index\": \"property-listing-ad-location-category\",\n\t\"composite\": {\n\t\t\"location\": \"detroit\",\n\t\t\"category\": \"general\"\n\t }\n}}",
+											"displayName": "content",
+											"name": "content",
+											"type": 1,
+											"value": "{\n  \"query\": {\n  \"index\": \"property-listing-ad-location-category\",\n\t\"composite\": {\n\t\t\"location\": \"detroit\",\n\t\t\"category\": \"general\"\n\t }\n}}"
+										},
+										{
+											"attributes": [],
+											"computedValue": "application/json",
+											"displayName": "contentType",
+											"name": "contentType",
+											"type": 1,
+											"value": "application/json"
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "jsScript",
+											"name": "jsScript",
+											"type": 1,
+											"value": ""
+										}
+									],
+									"computedValue": null,
+									"displayName": "body",
+									"name": "body",
+									"type": 2,
+									"value": null
+								},
+								{
+									"attributes": [],
+									"computedValue": "post",
+									"displayName": "method",
+									"name": "method",
+									"type": 1,
+									"value": "post"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/homes",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Homes",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

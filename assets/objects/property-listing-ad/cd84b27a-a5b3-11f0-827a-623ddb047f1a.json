@@ -1,0 +1,18 @@
+{
+	"category": "general",
+	"description": "This beautiful 3-bedroom, 2-bathroom condo is located in a peaceful suburb of Boston, perfect for families or professionals. The property features a modern interior, spacious balcony, and access to community amenities, including a pool and playground.",
+	"id": "cd84b27a-a5b3-11f0-827a-623ddb047f1a",
+	"location": "detroit",
+	"photos": [],
+	"property": {
+		"area": "Whatever, Detroit",
+		"bathrooms": 2,
+		"bedrooms": 3,
+		"price": 420000,
+		"propertyType": "Condo",
+		"squareFeet": 1800,
+		"yearBuilt": 2000
+	},
+	"title": "Charming Suburban Condo in Detroit",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

@@ -1,0 +1,18 @@
+{
+	"category": "general",
+	"description": "A spacious 4-bedroom, 3-bathroom house located in the heart of Detroit. Featuring a large backyard, modern kitchen amenities, and easy access to shopping districts.",
+	"id": "de35f42f-a551-11f0-89d0-1ac36c6edc87",
+	"location": "detroit",
+	"photos": [],
+	"property": {
+		"area": "Downtown, Detroit",
+		"bathrooms": 3,
+		"bedrooms": 4,
+		"price": 350000,
+		"propertyType": "House",
+		"squareFeet": 2500,
+		"yearBuilt": 1985
+	},
+	"title": "Spacious detroit sanctuary on the River",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

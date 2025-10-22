@@ -1,0 +1,107 @@
+{
+	"hooks": {
+		"AfterSave": [
+			{
+				"name": "arn:aws:lambda:us-east-1:032425924121:function:goclassifieds-splits-api-dev-EntityIndexHook",
+				"type": "lambda"
+			}
+		]
+	},
+	"id": "property-listing-ad",
+	"schema": {
+		"properties": {
+			"category": {
+				"description": "The category of the listing (e.g., Real Estate).",
+				"type": "string"
+			},
+			"description": {
+				"description": "Detailed description of the property.",
+				"type": "string"
+			},
+			"location": {
+				"description": "The geographical location of the property (e.g., Downtown NY).",
+				"type": "string"
+			},
+			"photos": {
+				"description": "Array of photo objects showcasing the property.",
+				"items": {
+					"properties": {
+						"src": {
+							"description": "URL of the media source.",
+							"type": "string"
+						},
+						"thumb": {
+							"description": "Optional URL for the media thumbnail.",
+							"type": "string"
+						},
+						"type": {
+							"description": "Type of the photo (e.g., image, video, thumbnail, etc.).",
+							"type": "string"
+						}
+					},
+					"required": [
+						"type",
+						"src"
+					],
+					"type": "object"
+				},
+				"type": "array"
+			},
+			"property": {
+				"description": "Details of the property being advertised.",
+				"properties": {
+					"area": {
+						"description": "The location of the property.",
+						"type": "string"
+					},
+					"bathrooms": {
+						"description": "Number of bathrooms in the property.",
+						"type": "integer"
+					},
+					"bedrooms": {
+						"description": "Number of bedrooms in the property.",
+						"type": "integer"
+					},
+					"price": {
+						"description": "Price of the property.",
+						"type": "number"
+					},
+					"propertyType": {
+						"description": "Type of the property (e.g., Apartment, House).",
+						"type": "string"
+					},
+					"squareFeet": {
+						"description": "Total area of the property in square feet.",
+						"type": "integer"
+					},
+					"yearBuilt": {
+						"description": "The year the property was constructed.",
+						"type": "integer"
+					}
+				},
+				"required": [
+					"area",
+					"bedrooms",
+					"bathrooms",
+					"propertyType",
+					"yearBuilt",
+					"squareFeet",
+					"price"
+				],
+				"type": "object"
+			},
+			"title": {
+				"description": "The title of the property listing.",
+				"type": "string"
+			}
+		},
+		"required": [
+			"property",
+			"description",
+			"title",
+			"location",
+			"category"
+		]
+	},
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

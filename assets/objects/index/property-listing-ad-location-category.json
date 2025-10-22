@@ -1,0 +1,10 @@
+{
+	"entity": "property-listing-ad",
+	"fields": [
+		"location",
+		"category"
+	],
+	"id": "property-listing-ad-location-category",
+	"repoName": "property-listing-ad-location-category-index",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
