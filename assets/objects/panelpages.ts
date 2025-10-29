@@ -4008,7 +4008,7 @@ export const panelpages = [
             }
           }
         ],
-        "url": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06"
+        "url": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId"
       },
       "snippet": null,
       "tokens": null
@@ -4300,13 +4300,13 @@ export const panelpages = [
                       "attributes": [
                         {
                           "attributes": [],
-                          "computedValue": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06",
+                          "computedValue": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId",
                           "displayName": "url",
                           "floatValue": 0,
                           "intValue": 0,
                           "name": "url",
                           "type": 1,
-                          "value": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06"
+                          "value": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId"
                         },
                         {
                           "attributes": [],
@@ -4779,13 +4779,13 @@ export const panelpages = [
               "attributes": [
                 {
                   "attributes": [],
-                  "computedValue": "https://gateway.marvel.com:443/v1/public/characters?apikey=12097554cc585301fc38efd51b21fb06&orderBy=name&limit=:limit&offset=:offset&nameStartsWith=:nameStartsWith",
+                  "computedValue": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters?orderBy=name&limit=:limit&offset=:offset&nameStartsWith=:nameStartsWith",
                   "displayName": "url",
                   "floatValue": 0,
                   "intValue": 0,
                   "name": "url",
                   "type": 1,
-                  "value": "https://gateway.marvel.com:443/v1/public/characters?apikey=12097554cc585301fc38efd51b21fb06&orderBy=name&limit=:limit&offset=:offset&nameStartsWith=:nameStartsWith"
+                  "value": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters?orderBy=name&limit=:limit&offset=:offset&nameStartsWith=:nameStartsWith"
                 },
                 {
                   "attributes": [
@@ -6297,13 +6297,13 @@ export const panelpages = [
                       "attributes": [
                         {
                           "attributes": [],
-                          "computedValue": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06",
+                          "computedValue": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId",
                           "displayName": "url",
                           "floatValue": 0,
                           "intValue": 0,
                           "name": "url",
                           "type": 1,
-                          "value": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06"
+                          "value": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId"
                         },
                         {
                           "attributes": [],
@@ -7677,13 +7677,13 @@ export const panelpages = [
                       "attributes": [
                         {
                           "attributes": [],
-                          "computedValue": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06",
+                          "computedValue": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId",
                           "displayName": "url",
                           "floatValue": 0,
                           "intValue": 0,
                           "name": "url",
                           "type": 1,
-                          "value": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06"
+                          "value": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId"
                         },
                         {
                           "attributes": [],
@@ -8972,13 +8972,13 @@ export const panelpages = [
                       "attributes": [
                         {
                           "attributes": [],
-                          "computedValue": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06",
+                          "computedValue": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId",
                           "displayName": "url",
                           "floatValue": 0,
                           "intValue": 0,
                           "name": "url",
                           "type": 1,
-                          "value": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06"
+                          "value": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId"
                         },
                         {
                           "attributes": [],
@@ -9739,13 +9739,13 @@ export const panelpages = [
                       "attributes": [
                         {
                           "attributes": [],
-                          "computedValue": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06",
+                          "computedValue": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId",
                           "displayName": "url",
                           "floatValue": 0,
                           "intValue": 0,
                           "name": "url",
                           "type": 1,
-                          "value": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06"
+                          "value": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId"
                         },
                         {
                           "attributes": [],
@@ -10506,13 +10506,13 @@ export const panelpages = [
                       "attributes": [
                         {
                           "attributes": [],
-                          "computedValue": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06",
+                          "computedValue": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId",
                           "displayName": "url",
                           "floatValue": 0,
                           "intValue": 0,
                           "name": "url",
                           "type": 1,
-                          "value": "https://gateway.marvel.com:443/v1/public/characters/:characterId?apikey=12097554cc585301fc38efd51b21fb06"
+                          "value": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/marvel/characters/:characterId"
                         },
                         {
                           "attributes": [],
