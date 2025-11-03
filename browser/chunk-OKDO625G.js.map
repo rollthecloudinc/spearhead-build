@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../@smithy/types/dist-es/middleware.js"],
+  "sourcesContent": ["export const SMITHY_CONTEXT_KEY = \"__smithy_context\";"],
+  "mappings": "AAAO,IAAMA,EAAqB",
+  "names": ["SMITHY_CONTEXT_KEY"]
+}

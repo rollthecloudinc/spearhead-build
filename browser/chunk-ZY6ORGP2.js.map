@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../@angular/common/fesm2022/xhr.mjs"],
+  "sourcesContent": ["/**\n * @license Angular v20.3.9\n * (c) 2010-2025 Google LLC. https://angular.dev/\n * License: MIT\n */\n\nfunction parseCookieValue(cookieStr, name) {\n  name = encodeURIComponent(name);\n  for (const cookie of cookieStr.split(';')) {\n    const eqIndex = cookie.indexOf('=');\n    const [cookieName, cookieValue] = eqIndex == -1 ? [cookie, ''] : [cookie.slice(0, eqIndex), cookie.slice(eqIndex + 1)];\n    if (cookieName.trim() === name) {\n      return decodeURIComponent(cookieValue);\n    }\n  }\n  return null;\n}\n\n/**\n * A wrapper around the `XMLHttpRequest` constructor.\n *\n * @publicApi\n */\nclass XhrFactory {}\nexport { XhrFactory, parseCookieValue };\n"],
+  "mappings": "AAMA,SAASA,EAAiBC,EAAWC,EAAM,CACzCA,EAAO,mBAAmBA,CAAI,EAC9B,QAAWC,KAAUF,EAAU,MAAM,GAAG,EAAG,CACzC,IAAMG,EAAUD,EAAO,QAAQ,GAAG,EAC5B,CAACE,EAAYC,CAAW,EAAIF,GAAW,GAAK,CAACD,EAAQ,EAAE,EAAI,CAACA,EAAO,MAAM,EAAGC,CAAO,EAAGD,EAAO,MAAMC,EAAU,CAAC,CAAC,EACrH,GAAIC,EAAW,KAAK,IAAMH,EACxB,OAAO,mBAAmBI,CAAW,CAEzC,CACA,OAAO,IACT,CAOA,IAAMC,EAAN,KAAiB,CAAC",
+  "names": ["parseCookieValue", "cookieStr", "name", "cookie", "eqIndex", "cookieName", "cookieValue", "XhrFactory"]
+}

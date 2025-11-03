@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../@angular/material/fesm2022/ripple-module.mjs"],
+  "sourcesContent": ["import * as i0 from '@angular/core';\nimport { NgModule } from '@angular/core';\nimport { MatCommonModule } from './common-module.mjs';\nimport { MatRipple } from './ripple.mjs';\nlet MatRippleModule = /*#__PURE__*/(() => {\n  class MatRippleModule {\n    static \u0275fac = function MatRippleModule_Factory(__ngFactoryType__) {\n      return new (__ngFactoryType__ || MatRippleModule)();\n    };\n    static \u0275mod = /* @__PURE__ */i0.\u0275\u0275defineNgModule({\n      type: MatRippleModule\n    });\n    static \u0275inj = /* @__PURE__ */i0.\u0275\u0275defineInjector({\n      imports: [MatCommonModule, MatCommonModule]\n    });\n  }\n  return MatRippleModule;\n})();\n/*#__PURE__*/(() => {\n  (typeof ngDevMode === \"undefined\" || ngDevMode) && void 0;\n})();\nexport { MatRippleModule };\n"],
+  "mappings": "wCAAA,UAAYA,MAAQ,gBACpB,MAAyB,gBAGzB,IAAIC,GAAgC,IAAM,CACxC,MAAMA,CAAgB,CACpB,OAAO,UAAO,SAAiCC,EAAmB,CAChE,OAAO,IAAKA,GAAqBD,EACnC,EACA,OAAO,UAAyB,6BAAiB,CAC/C,KAAMA,CACR,CAAC,EACD,OAAO,UAAyB,6BAAiB,CAC/C,QAAS,CAACE,EAAiBA,CAAe,CAC5C,CAAC,CACH,CACA,OAAOF,CACT,GAAG",
+  "names": ["i0", "MatRippleModule", "__ngFactoryType__", "MatCommonModule"]
+}

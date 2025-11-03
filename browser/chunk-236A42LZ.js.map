@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../@aws-sdk/util-uri-escape/dist-es/escape-uri.js"],
+  "sourcesContent": ["export const escapeUri = uri => encodeURIComponent(uri).replace(/[!'()*]/g, hexEncode);\nconst hexEncode = c => `%${c.charCodeAt(0).toString(16).toUpperCase()}`;"],
+  "mappings": "AAAO,IAAMA,EAAYC,GAAO,mBAAmBA,CAAG,EAAE,QAAQ,WAAYC,CAAS,EAC/EA,EAAYC,GAAK,IAAIA,EAAE,WAAW,CAAC,EAAE,SAAS,EAAE,EAAE,YAAY,CAAC",
+  "names": ["escapeUri", "uri", "hexEncode", "c"]
+}

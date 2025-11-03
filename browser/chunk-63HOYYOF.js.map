@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../@angular/material/fesm2022/form-field-module.mjs"],
+  "sourcesContent": ["import { ObserversModule } from '@angular/cdk/observers';\nimport * as i0 from '@angular/core';\nimport { NgModule } from '@angular/core';\nimport { MatFormField, MatLabel, MatError, MatHint, MatPrefix, MatSuffix } from './form-field2.mjs';\nimport { MatCommonModule } from './common-module.mjs';\nlet MatFormFieldModule = /*#__PURE__*/(() => {\n  class MatFormFieldModule {\n    static \u0275fac = function MatFormFieldModule_Factory(__ngFactoryType__) {\n      return new (__ngFactoryType__ || MatFormFieldModule)();\n    };\n    static \u0275mod = /* @__PURE__ */i0.\u0275\u0275defineNgModule({\n      type: MatFormFieldModule\n    });\n    static \u0275inj = /* @__PURE__ */i0.\u0275\u0275defineInjector({\n      imports: [MatCommonModule, ObserversModule, MatFormField, MatCommonModule]\n    });\n  }\n  return MatFormFieldModule;\n})();\n/*#__PURE__*/(() => {\n  (typeof ngDevMode === \"undefined\" || ngDevMode) && void 0;\n})();\nexport { MatFormFieldModule };\n"],
+  "mappings": "gFAAA,OAAS,mBAAAA,MAAuB,yBAChC,UAAYC,MAAQ,gBACpB,MAAyB,gBAGzB,IAAIC,GAAmC,IAAM,CAC3C,MAAMA,CAAmB,CACvB,OAAO,UAAO,SAAoCC,EAAmB,CACnE,OAAO,IAAKA,GAAqBD,EACnC,EACA,OAAO,UAAyB,6BAAiB,CAC/C,KAAMA,CACR,CAAC,EACD,OAAO,UAAyB,6BAAiB,CAC/C,QAAS,CAACE,EAAiBC,EAAiBC,EAAcF,CAAe,CAC3E,CAAC,CACH,CACA,OAAOF,CACT,GAAG",
+  "names": ["ObserversModule", "i0", "MatFormFieldModule", "__ngFactoryType__", "MatCommonModule", "ObserversModule", "MatFormField"]
+}

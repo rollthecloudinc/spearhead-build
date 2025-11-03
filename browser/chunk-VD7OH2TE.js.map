@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../@smithy/property-provider/dist-es/ProviderError.js"],
+  "sourcesContent": ["export class ProviderError extends Error {\n  name = \"ProviderError\";\n  tryNextLink;\n  constructor(message, options = true) {\n    let logger;\n    let tryNextLink = true;\n    if (typeof options === \"boolean\") {\n      logger = undefined;\n      tryNextLink = options;\n    } else if (options != null && typeof options === \"object\") {\n      logger = options.logger;\n      tryNextLink = options.tryNextLink ?? true;\n    }\n    super(message);\n    this.tryNextLink = tryNextLink;\n    Object.setPrototypeOf(this, ProviderError.prototype);\n    logger?.debug?.(`@smithy/property-provider ${tryNextLink ? \"->\" : \"(!)\"} ${message}`);\n  }\n  static from(error, options = true) {\n    return Object.assign(new this(error.message, options), error);\n  }\n}"],
+  "mappings": "AAAO,IAAMA,EAAN,MAAMC,UAAsB,KAAM,CACvC,KAAO,gBACP,YACA,YAAYC,EAASC,EAAU,GAAM,CACnC,IAAIC,EACAC,EAAc,GACd,OAAOF,GAAY,WACrBC,EAAS,OACTC,EAAcF,GACLA,GAAW,MAAQ,OAAOA,GAAY,WAC/CC,EAASD,EAAQ,OACjBE,EAAcF,EAAQ,aAAe,IAEvC,MAAMD,CAAO,EACb,KAAK,YAAcG,EACnB,OAAO,eAAe,KAAMJ,EAAc,SAAS,EACnDG,GAAQ,QAAQ,6BAA6BC,EAAc,KAAO,KAAK,IAAIH,CAAO,EAAE,CACtF,CACA,OAAO,KAAKI,EAAOH,EAAU,GAAM,CACjC,OAAO,OAAO,OAAO,IAAI,KAAKG,EAAM,QAASH,CAAO,EAAGG,CAAK,CAC9D,CACF",
+  "names": ["ProviderError", "_ProviderError", "message", "options", "logger", "tryNextLink", "error"]
+}
