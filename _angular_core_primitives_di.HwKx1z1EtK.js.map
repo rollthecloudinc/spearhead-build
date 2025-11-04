@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../@angular/core/fesm2022/primitives/di.mjs"],
+  "sourcesContent": ["/**\n * @license Angular v20.3.7\n * (c) 2010-2025 Google LLC. https://angular.dev/\n * License: MIT\n */\n\nexport { NOT_FOUND, NotFoundError, getCurrentInjector, inject, isNotFound, setCurrentInjector } from '../not_found.mjs';\nfunction defineInjectable(opts) {\n  return {\n    token: opts.token,\n    providedIn: opts.providedIn || null,\n    factory: opts.factory,\n    value: undefined\n  };\n}\nfunction registerInjectable(ctor, declaration) {\n  ctor.\u0275prov = declaration;\n  return ctor;\n}\nexport { defineInjectable, registerInjectable };\n"],
+  "mappings": "uGAOA,SAASA,EAAiBC,EAAM,CAC9B,MAAO,CACL,MAAOA,EAAK,MACZ,WAAYA,EAAK,YAAc,KAC/B,QAASA,EAAK,QACd,MAAO,MACT,CACF,CACA,SAASC,EAAmBC,EAAMC,EAAa,CAC7C,OAAAD,EAAK,WAAQC,EACND,CACT",
+  "names": ["defineInjectable", "opts", "registerInjectable", "ctor", "declaration"]
+}
