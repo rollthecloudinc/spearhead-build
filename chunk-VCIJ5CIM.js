@@ -24115,7 +24115,7 @@ var AppModule = class _AppModule {
       AliasModule,
       PanelsModule,
       RenderModule,
-      // PagealiasModule,
+      // PagealiasModule, The PageAlias module is causing problems when prerendering the index / page. Therefore, remove it since we don't use PanelPageListItems at this time.
       // FormlyModule,
       TransformModule,
       AwcogModule,
@@ -24195,7 +24195,7 @@ var AppModule = class _AppModule {
         AliasModule,
         PanelsModule,
         RenderModule,
-        // PagealiasModule,
+        // PagealiasModule, The PageAlias module is causing problems when prerendering the index / page. Therefore, remove it since we don't use PanelPageListItems at this time.
         // FormlyModule,
         TransformModule,
         AwcogModule,
@@ -24242,4 +24242,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-V23JVDKV.js.map
+//# sourceMappingURL=chunk-VCIJ5CIM.js.map
