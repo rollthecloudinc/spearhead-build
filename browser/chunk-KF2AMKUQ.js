@@ -1,1 +1,0 @@
-var g=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var j=Object.prototype.hasOwnProperty;var f=(b,a,d,e)=>{if(a&&typeof a=="object"||typeof a=="function")for(let c of i(a))!j.call(b,c)&&c!==d&&g(b,c,{get:()=>a[c],enumerable:!(e=h(a,c))||e.enumerable});return b},k=(b,a,d)=>(f(b,a,"default"),d&&f(d,a,"default"));export{k as a};

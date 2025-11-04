@@ -1,1 +1,0 @@
-import{a as r}from"./chunk-KF2AMKUQ.js";var o={};r(o,c);import*as c from"@softarc/native-federation-runtime";(0,o.initFederation)().catch(e=>console.error("Error loading federation configuration:",e)).then(e=>{import("./chunk-UJ4HOFK3.js").catch(t=>console.error(t))});
