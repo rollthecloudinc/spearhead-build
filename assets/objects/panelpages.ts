@@ -23692,6 +23692,82 @@ export const panelpages = [
 }
 ,
 {
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./DownloadModule",
+				"moduleName": "DownloadModule",
+				"remoteEntry": "https://solid.rollthecloud.com/remoteEntry.json"
+			},
+			"name": "module",
+			"plugin": "module"
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "fbac7b08-0607-41e0-aebe-57d072b3c428",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-module-federation",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "plugin_download",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": []
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-module-federation",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Module Federation",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
 	"contexts": [],
 	"displayType": "form",
 	"entityPermissions": {
