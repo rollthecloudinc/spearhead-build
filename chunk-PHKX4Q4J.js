@@ -206,7 +206,8 @@ var panelpages = [
   ["8ebbcdb3-300f-4739-8cb3-6c5d4c402638", "/am-charts-visual-editor-bar-chart-test"],
   ["63a4219d-254e-11ec-ab14-c613312e594f", "/dev-test-virtual-list-flex-v1"],
   ["c38d4c9a-c2c7-4d9a-9d89-6a5c5425a372", "/justwork"],
-  ["fbac7b08-0607-41e0-aebe-57d072b3c428", "/test-module-federation"]
+  ["fbac7b08-0607-41e0-aebe-57d072b3c428", "/test-module-federation"],
+  ["602e1760-d580-46f4-9218-2e856f18aa33", "/test-outsider-app"]
 ];
 
 // projects/spear/src/app/app.module.ts
@@ -4176,6 +4177,115 @@ var panelpages2 = [
     "site": "spearhead",
     "title": "plugin-amcharts-refs-test-1",
     "userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "602e1760-d580-46f4-9218-2e856f18aa33",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "test-outsider-app",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "outside_app",
+            "contexts": [],
+            "label": "Micro Fe",
+            "locked": false,
+            "name": "micro-fe",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "module",
+                "displayName": "type",
+                "name": "type",
+                "type": 1,
+                "value": "module"
+              },
+              {
+                "attributes": [],
+                "computedValue": "https://solid.rollthecloud.com/remoteEntry.json",
+                "displayName": "remoteEntry",
+                "name": "remoteEntry",
+                "type": 1,
+                "value": "https://solid.rollthecloud.com/remoteEntry.json"
+              },
+              {
+                "attributes": [],
+                "computedValue": "UploadComponent",
+                "displayName": "componentName",
+                "name": "componentName",
+                "type": 1,
+                "value": "UploadComponent"
+              },
+              {
+                "attributes": [],
+                "computedValue": "./Upload",
+                "displayName": "exposedModule",
+                "name": "exposedModule",
+                "type": 1,
+                "value": "./Upload"
+              },
+              {
+                "attributes": [],
+                "computedValue": "plugin",
+                "displayName": "remoteName",
+                "name": "remoteName",
+                "type": 1,
+                "value": "plugin"
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-outsider-app",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "site": "spearhead",
+    "title": "Test Ousider App",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
   },
   {
     "contexts": [
@@ -22972,6 +23082,61 @@ var panelpages2 = [
     "userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
   },
   {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "dabb26e7-832e-4bac-bc55-1a20b620128d",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "test-outsider-app",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-outsider-app",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "site": "spearhead",
+    "title": "Test Ousider App",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
     "contexts": [
       {
         "adaptor": "data",
@@ -24859,4 +25024,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-EKKZ5E4L.js.map
+//# sourceMappingURL=chunk-PHKX4Q4J.js.map

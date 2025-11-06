@@ -1,0 +1,109 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "602e1760-d580-46f4-9218-2e856f18aa33",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-outsider-app",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "outside_app",
+					"contexts": [],
+					"label": "Micro Fe",
+					"locked": false,
+					"name": "micro-fe",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "module",
+							"displayName": "type",
+							"name": "type",
+							"type": 1,
+							"value": "module"
+						},
+						{
+							"attributes": [],
+							"computedValue": "https://solid.rollthecloud.com/remoteEntry.json",
+							"displayName": "remoteEntry",
+							"name": "remoteEntry",
+							"type": 1,
+							"value": "https://solid.rollthecloud.com/remoteEntry.json"
+						},
+						{
+							"attributes": [],
+							"computedValue": "UploadComponent",
+							"displayName": "componentName",
+							"name": "componentName",
+							"type": 1,
+							"value": "UploadComponent"
+						},
+						{
+							"attributes": [],
+							"computedValue": "./Upload",
+							"displayName": "exposedModule",
+							"name": "exposedModule",
+							"type": 1,
+							"value": "./Upload"
+						},
+						{
+							"attributes": [],
+							"computedValue": "plugin",
+							"displayName": "remoteName",
+							"name": "remoteName",
+							"type": 1,
+							"value": "plugin"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-outsider-app",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Ousider App",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
