@@ -20,7 +20,104 @@
 	"id": "6b4bc3f2-5138-491b-a718-e342f6828a62",
 	"interactions": {
 		"interactions": {
-			"listeners": []
+			"listeners": [
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": ".form-submit"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:target"
+						}
+					},
+					"handler": {
+						"plugin": "panels_form_submit",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": "test-simple-form"
+									}
+								}
+							],
+							"paramsString": "name=:name"
+						}
+					}
+				}
+			]
 		}
 	},
 	"layoutSetting": {
@@ -1229,6 +1326,43 @@
 							"displayName": "layoutSetting",
 							"name": "layoutSetting",
 							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "form-submit",
+					"locked": false,
+					"name": "form-submit",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "<div class=\"form-submit\">Submit</div>",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "<div class=\"form-submit\">Submit</div>"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
 							"value": null
 						}
 					]

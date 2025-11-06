@@ -11123,7 +11123,104 @@ export const panelpages = [
 	"id": "6b4bc3f2-5138-491b-a718-e342f6828a62",
 	"interactions": {
 		"interactions": {
-			"listeners": []
+			"listeners": [
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": ".form-submit"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:target"
+						}
+					},
+					"handler": {
+						"plugin": "panels_form_submit",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": "test-simple-form"
+									}
+								}
+							],
+							"paramsString": "name=:name"
+						}
+					}
+				}
+			]
 		}
 	},
 	"layoutSetting": {
@@ -12335,6 +12432,43 @@ export const panelpages = [
 							"value": null
 						}
 					]
+				},
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "form-submit",
+					"locked": false,
+					"name": "form-submit",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "<div class=\"form-submit\">Submit</div>",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "<div class=\"form-submit\">Submit</div>"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
 				}
 			],
 			"settings": [],
@@ -12593,6 +12727,62 @@ export const panelpages = [
 	"site": "spearhead",
 	"title": "Visual Editor Bar Chart",
 	"userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
+}
+,
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "95fe8adf-f60b-4e2e-bc02-9026a4531144",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-dialog-interaction",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-dialog-interaction",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Dialog Interaction",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
 }
 ,
 {
@@ -21591,6 +21781,197 @@ export const panelpages = [
 			"y": 0
 		}
 	],
+	"id": "c3a91907-8bfb-460f-9e50-f7c84e8dbfe4",
+	"interactions": {
+		"interactions": {
+			"listeners": [
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": ".open-dialog"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:target"
+						}
+					},
+					"handler": {
+						"plugin": "panels_dialog",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": "6b4bc3f2-5138-491b-a718-e342f6828a62"
+									}
+								}
+							],
+							"paramsString": "panelPageId=:panelPageId"
+						}
+					}
+				}
+			]
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-dialog-interaction",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "<div class=\"open-dialog\">Open Dialog</div>",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "<div class=\"open-dialog\">Open Dialog</div>"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-dialog-interaction",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Dialog Interaction",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
 	"id": "c8feab31-84b9-49a1-95a3-989ad3211eac",
 	"interactions": {
 		"interactions": {
@@ -23606,6 +23987,167 @@ export const panelpages = [
 	],
 	"site": "spearhead",
 	"title": "Test 2025",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "ef53a364-bca8-4f7a-a458-44138d423f5f",
+	"interactions": {
+		"interactions": {
+			"listeners": [
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "",
+										"type": "static",
+										"value": ".form-submit"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:target"
+						}
+					},
+					"handler": {
+						"plugin": "hello_world",
+						"settings": {}
+					}
+				}
+			]
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "interactions-basic-example",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "Submit Form",
+					"locked": false,
+					"name": "submit-form",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "<div class=\"form-submit\">Submit Form</div>",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "<div class=\"form-submit\">Submit Form</div>"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/interactions-basic-example",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Interactions Basic Example",
 	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
 }
 ,
