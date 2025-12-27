@@ -1,0 +1,35 @@
+{
+	"id": "30d88c2e-8265-4385-b9ad-6499e9308e17",
+	"quill": {
+		"ops": [
+			{
+				"insert": "Keep it "
+			},
+			{
+				"attributes": [
+					{
+						"attributes": [],
+						"computedValue": "#e60000",
+						"displayName": "color",
+						"name": "color",
+						"type": 1,
+						"value": "#e60000"
+					},
+					{
+						"attributes": [],
+						"computedValue": "true",
+						"displayName": "strike",
+						"name": "strike",
+						"type": 5,
+						"value": "true"
+					}
+				],
+				"insert": "simple"
+			},
+			{
+				"insert": "\n"
+			}
+		]
+	},
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

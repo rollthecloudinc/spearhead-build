@@ -1,0 +1,5 @@
+{
+	"id": "9e461ef9-585a-43ee-b7f5-8bbf3f4b919a",
+	"quill": "{\"ops\":[{\"attributes\":{\"color\":\"#e60000\"},\"insert\":\"This is a classified ad\"},{\"attributes\":{\"header\":1},\"insert\":\"\\n\"},{\"insert\":\"\\nFor a home.\\n\\n\"},{\"attributes\":{\"background\":\"#ffc266\"},\"insert\":\"The home is here.\"},{\"insert\":\"\\n\\nI will now add some \"},{\"attributes\":{\"bold\":true},\"insert\":\"content and have it update\"},{\"insert\":\".\\n\\nSome more content about my thing. blah blah blah.\\n\"}]}",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

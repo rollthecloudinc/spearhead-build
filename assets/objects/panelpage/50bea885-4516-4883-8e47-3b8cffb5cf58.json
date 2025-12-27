@@ -1,0 +1,166 @@
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./QuillModule",
+				"moduleName": "QuillModule",
+				"remoteEntry": "https://solid-quill.rollthecloud.com/remoteEntry.json"
+			},
+			"name": "quill-view",
+			"plugin": "module"
+		},
+		{
+			"adaptor": "rest",
+			"name": "content",
+			"plugin": "rest",
+			"rest": {
+				"body": {
+					"content": "{}",
+					"contentType": "application/json"
+				},
+				"method": "get",
+				"params": [
+					{
+						"flags": [
+							{
+								"enabled": false,
+								"name": "page"
+							},
+							{
+								"enabled": false,
+								"name": "limit"
+							},
+							{
+								"enabled": false,
+								"name": "offset"
+							},
+							{
+								"enabled": false,
+								"name": "searchString"
+							}
+						],
+						"mapping": {
+							"context": "",
+							"testValue": "81168d4e-e0b3-11f0-b46e-96a97c0a07f7",
+							"type": "route",
+							"value": "arg0"
+						}
+					}
+				],
+				"url": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/shapeshifter/quilltest/:id"
+			}
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "50bea885-4516-4883-8e47-3b8cffb5cf58",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-quill-view-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "Quill View",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "Quill View"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "plugin_quill_view",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "[content.quill]",
+							"displayName": "token",
+							"name": "token",
+							"type": 1,
+							"value": "[content.quill]"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-quill-view-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Quill View Int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

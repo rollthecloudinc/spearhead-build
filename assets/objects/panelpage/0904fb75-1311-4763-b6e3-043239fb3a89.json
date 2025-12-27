@@ -46,7 +46,7 @@
 			"data": {
 				"exposedModule": "./GalleryModule",
 				"moduleName": "GalleryModule",
-				"remoteEntry": "http://localhost:3000/remoteEntry.js"
+				"remoteEntry": "http://localhost:3000/remoteEntry.json"
 			},
 			"name": "gallery",
 			"plugin": "module"

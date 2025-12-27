@@ -398,7 +398,7 @@ export const panelpages = [
 			"data": {
 				"exposedModule": "./GalleryModule",
 				"moduleName": "GalleryModule",
-				"remoteEntry": "http://localhost:3000/remoteEntry.js"
+				"remoteEntry": "http://localhost:3000/remoteEntry.json"
 			},
 			"name": "gallery",
 			"plugin": "module"
@@ -3483,6 +3483,97 @@ export const panelpages = [
 		],
 		"writeUserIds": []
 	},
+	"gridItems": [],
+	"id": "39d909df-81b4-486d-ba80-8fab88a14f9f",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "range-slider-test",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "form_range",
+					"contexts": [],
+					"label": "Range",
+					"locked": false,
+					"name": "range",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/range-slider-test",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Range Slider Test",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
 	"gridItems": [
 		{
 			"cols": 100,
@@ -3713,6 +3804,822 @@ export const panelpages = [
 	"site": "spearhead",
 	"title": "Test AmCharts5 Plugin v1",
 	"userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
+}
+,
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./QuillModule",
+				"moduleName": "QuillModule",
+				"remoteEntry": "https://solid-quill.rollthecloud.com/remoteEntry.json"
+			},
+			"name": "module",
+			"plugin": "module"
+		},
+		{
+			"adaptor": "rest",
+			"name": "content",
+			"plugin": "rest",
+			"rest": {
+				"body": {
+					"content": "{}",
+					"contentType": "application/json"
+				},
+				"method": "get",
+				"params": [
+					{
+						"flags": [
+							{
+								"enabled": false,
+								"name": "page"
+							},
+							{
+								"enabled": false,
+								"name": "limit"
+							},
+							{
+								"enabled": false,
+								"name": "offset"
+							},
+							{
+								"enabled": false,
+								"name": "searchString"
+							}
+						],
+						"mapping": {
+							"context": "",
+							"testValue": "",
+							"type": "route",
+							"value": "arg0"
+						}
+					}
+				],
+				"url": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/shapeshifter/quilltest/:id"
+			}
+		}
+	],
+	"displayType": "form",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "4c97f5a8-651e-4a4d-9c2d-c946cf4d8c30",
+	"interactions": {
+		"interactions": {
+			"listeners": [
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "click",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": ".submit-form",
+										"type": "static",
+										"value": ".submit-form"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:target"
+						}
+					},
+					"handler": {
+						"plugin": "panels_form_submit",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "test-quill-int",
+										"type": "static",
+										"value": "test-quill-int"
+									}
+								}
+							],
+							"paramsString": "name=:name"
+						}
+					}
+				}
+			]
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-quill-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "plugin_quill",
+					"contexts": [],
+					"label": "Quill",
+					"locked": false,
+					"name": "quill",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "[content.quill]",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": "[content.quill]"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "trackBy",
+									"name": "trackBy",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "idMapping",
+									"name": "idMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "labelMapping",
+									"name": "labelMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "valueMapping",
+									"name": "valueMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "false",
+									"displayName": "multiple",
+									"name": "multiple",
+									"type": 5,
+									"value": "false"
+								},
+								{
+									"attributes": [],
+									"computedValue": "0",
+									"displayName": "limit",
+									"name": "limit",
+									"type": 0,
+									"value": "0"
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceOptions",
+							"name": "datasourceOptions",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "<div class=\"submit-form\">Submit Form</div>",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "<div class=\"submit-form\">Submit Form</div>"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "form_hidden",
+					"contexts": [],
+					"label": "id",
+					"locked": false,
+					"name": "id",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "[content.id]",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": "[content.id]"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "trackBy",
+									"name": "trackBy",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "idMapping",
+									"name": "idMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "labelMapping",
+									"name": "labelMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "valueMapping",
+									"name": "valueMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "false",
+									"displayName": "multiple",
+									"name": "multiple",
+									"type": 5,
+									"value": "false"
+								},
+								{
+									"attributes": [],
+									"computedValue": "0",
+									"displayName": "limit",
+									"name": "limit",
+									"type": 0,
+									"value": "0"
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceOptions",
+							"name": "datasourceOptions",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-quill-int",
+	"persistence": {
+		"dataduct": {
+			"plugin": "crud",
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "rest",
+					"displayName": "adaptorName",
+					"name": "adaptorName",
+					"type": 1,
+					"value": "rest"
+				},
+				{
+					"attributes": [],
+					"computedValue": "entityName=:entityName",
+					"displayName": "optionsString",
+					"name": "optionsString",
+					"type": 1,
+					"value": "entityName=:entityName"
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "paramsString",
+					"name": "paramsString",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [
+						{
+							"attributes": [
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "static",
+											"displayName": "type",
+											"name": "type",
+											"type": 1,
+											"value": "static"
+										},
+										{
+											"attributes": [],
+											"computedValue": "QuillTest",
+											"displayName": "value",
+											"name": "value",
+											"type": 1,
+											"value": "QuillTest"
+										},
+										{
+											"attributes": [],
+											"computedValue": "QuillTest",
+											"displayName": "testValue",
+											"name": "testValue",
+											"type": 1,
+											"value": "QuillTest"
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "context",
+											"name": "context",
+											"type": 1,
+											"value": ""
+										}
+									],
+									"displayName": "mapping",
+									"name": "mapping",
+									"type": 2
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "page",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "page"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "0",
+											"name": "0",
+											"type": 2
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "limit",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "limit"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "1",
+											"name": "1",
+											"type": 2
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "offset",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "offset"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "2",
+											"name": "2",
+											"type": 2
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "searchString",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "searchString"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "3",
+											"name": "3",
+											"type": 2
+										}
+									],
+									"displayName": "flags",
+									"name": "flags",
+									"type": 4
+								}
+							],
+							"displayName": "0",
+							"name": "0",
+							"type": 2
+						}
+					],
+					"displayName": "options",
+					"name": "options",
+					"type": 4
+				},
+				{
+					"attributes": [],
+					"displayName": "params",
+					"name": "params",
+					"type": 4
+				}
+			]
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Quill Integration",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./QuillModule",
+				"moduleName": "QuillModule",
+				"remoteEntry": "https://solid-quill.rollthecloud.com/remoteEntry.json"
+			},
+			"name": "quill-view",
+			"plugin": "module"
+		},
+		{
+			"adaptor": "rest",
+			"name": "content",
+			"plugin": "rest",
+			"rest": {
+				"body": {
+					"content": "{}",
+					"contentType": "application/json"
+				},
+				"method": "get",
+				"params": [
+					{
+						"flags": [
+							{
+								"enabled": false,
+								"name": "page"
+							},
+							{
+								"enabled": false,
+								"name": "limit"
+							},
+							{
+								"enabled": false,
+								"name": "offset"
+							},
+							{
+								"enabled": false,
+								"name": "searchString"
+							}
+						],
+						"mapping": {
+							"context": "",
+							"testValue": "81168d4e-e0b3-11f0-b46e-96a97c0a07f7",
+							"type": "route",
+							"value": "arg0"
+						}
+					}
+				],
+				"url": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/shapeshifter/quilltest/:id"
+			}
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "50bea885-4516-4883-8e47-3b8cffb5cf58",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-quill-view-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "Quill View",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "Quill View"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "plugin_quill_view",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "[content.quill]",
+							"displayName": "token",
+							"name": "token",
+							"type": 1,
+							"value": "[content.quill]"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-quill-view-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Quill View Int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
 }
 ,
 {
@@ -12622,6 +13529,206 @@ export const panelpages = [
 	],
 	"site": "spearhead",
 	"title": "Test Simple Form",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./GalleryModule",
+				"moduleName": "GalleryModule",
+				"remoteEntry": "http://localhost:3000/remoteEntry.json"
+			},
+			"name": "module",
+			"plugin": "module"
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "6dbdcd27-3bc4-44fc-9f47-ef1b2e0473b1",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-gallery-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Slides Data",
+					"locked": false,
+					"name": "slides_data",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "[\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb: 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        }\n    ]",
+									"displayName": "data",
+									"name": "data",
+									"type": 1,
+									"value": "[\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb: 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        }\n    ]"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "gallery_gallery_item",
+					"contexts": [],
+					"label": "Gallery",
+					"locked": false,
+					"name": "gallery",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "slides_data",
+							"displayName": "bindingOption",
+							"name": "bindingOption",
+							"type": 1,
+							"value": "slides_data"
+						},
+						{
+							"attributes": [],
+							"computedValue": "$.*",
+							"displayName": "query",
+							"name": "query",
+							"type": 1,
+							"value": "$.*"
+						},
+						{
+							"attributes": [],
+							"computedValue": "[.type]",
+							"displayName": "typeMapping",
+							"name": "typeMapping",
+							"type": 1,
+							"value": "[.type]"
+						},
+						{
+							"attributes": [],
+							"computedValue": "[.src]",
+							"displayName": "imageMapping",
+							"name": "imageMapping",
+							"type": 1,
+							"value": "[.src]"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "videoMapping",
+							"name": "videoMapping",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "youtubeMapping",
+							"name": "youtubeMapping",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "iframeMapping",
+							"name": "iframeMapping",
+							"type": 1,
+							"value": ""
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-gallery-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Gallery Int",
 	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
 }
 ,
@@ -22406,6 +23513,190 @@ export const panelpages = [
 	],
 	"site": "spearhead",
 	"title": "justsave",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
+	"contexts": [],
+	"displayType": "form",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [],
+	"id": "ce5fc079-3560-443e-9ab4-a7d343ef53cb",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "range-slider-test",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "form_range",
+					"contexts": [],
+					"label": "Range",
+					"locked": false,
+					"name": "range",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "1",
+							"displayName": "min",
+							"name": "min",
+							"type": 0,
+							"value": "1"
+						},
+						{
+							"attributes": [],
+							"computedValue": "100",
+							"displayName": "max",
+							"name": "max",
+							"type": 0,
+							"value": "100"
+						},
+						{
+							"attributes": [],
+							"computedValue": "1",
+							"displayName": "step",
+							"name": "step",
+							"type": 0,
+							"value": "1"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "trackBy",
+									"name": "trackBy",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "idMapping",
+									"name": "idMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "labelMapping",
+									"name": "labelMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "valueMapping",
+									"name": "valueMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "false",
+									"displayName": "multiple",
+									"name": "multiple",
+									"type": 5,
+									"value": "false"
+								},
+								{
+									"attributes": [],
+									"computedValue": "0",
+									"displayName": "limit",
+									"name": "limit",
+									"type": 1,
+									"value": "0"
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceOptions",
+							"name": "datasourceOptions",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/range-slider-test",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Range Slider Test",
 	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
 }
 ,

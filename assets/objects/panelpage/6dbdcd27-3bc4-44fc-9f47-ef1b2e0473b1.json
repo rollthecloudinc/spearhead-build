@@ -1,0 +1,199 @@
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./GalleryModule",
+				"moduleName": "GalleryModule",
+				"remoteEntry": "http://localhost:3000/remoteEntry.json"
+			},
+			"name": "module",
+			"plugin": "module"
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "6dbdcd27-3bc4-44fc-9f47-ef1b2e0473b1",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-gallery-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Slides Data",
+					"locked": false,
+					"name": "slides_data",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "[\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb: 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        }\n    ]",
+									"displayName": "data",
+									"name": "data",
+									"type": 1,
+									"value": "[\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb: 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        }\n    ]"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "gallery_gallery_item",
+					"contexts": [],
+					"label": "Gallery",
+					"locked": false,
+					"name": "gallery",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "slides_data",
+							"displayName": "bindingOption",
+							"name": "bindingOption",
+							"type": 1,
+							"value": "slides_data"
+						},
+						{
+							"attributes": [],
+							"computedValue": "$.*",
+							"displayName": "query",
+							"name": "query",
+							"type": 1,
+							"value": "$.*"
+						},
+						{
+							"attributes": [],
+							"computedValue": "[.type]",
+							"displayName": "typeMapping",
+							"name": "typeMapping",
+							"type": 1,
+							"value": "[.type]"
+						},
+						{
+							"attributes": [],
+							"computedValue": "[.src]",
+							"displayName": "imageMapping",
+							"name": "imageMapping",
+							"type": 1,
+							"value": "[.src]"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "videoMapping",
+							"name": "videoMapping",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "youtubeMapping",
+							"name": "youtubeMapping",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "iframeMapping",
+							"name": "iframeMapping",
+							"type": 1,
+							"value": ""
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-gallery-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Gallery Int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
