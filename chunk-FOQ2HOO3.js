@@ -212,6 +212,7 @@ var panelpages = [
   ["6dbdcd27-3bc4-44fc-9f47-ef1b2e0473b1", "/test-gallery-int"],
   ["4c97f5a8-651e-4a4d-9c2d-c946cf4d8c30", "/test-quill-int"],
   ["50bea885-4516-4883-8e47-3b8cffb5cf58", "/test-quill-view-int"],
+  ["d4c19130-45fe-4188-96d1-7aaa276f6c3f", "/test-tabulator-int"],
   ["0904fb75-1311-4763-b6e3-043239fb3a89", "/homes"]
 ];
 
@@ -24208,6 +24209,418 @@ var panelpages2 = [
     "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
   },
   {
+    "contexts": [
+      {
+        "adaptor": "data",
+        "data": {
+          "exposedModule": "./TabulatorModule",
+          "moduleName": "TabulatorModule",
+          "remoteEntry": "https://solid-tabulator.rollthecloud.com/remoteEntry.json"
+        },
+        "name": "plugin-tabulator",
+        "plugin": "module"
+      }
+    ],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "d4c19130-45fe-4188-96d1-7aaa276f6c3f",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "test-tabulator-int",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "plugin_tabulator",
+            "contexts": [],
+            "label": "Data Table",
+            "locked": false,
+            "name": "data_table",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
+            "settings": [
+              {
+                "attributes": [
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [],
+                        "computedValue": "Name",
+                        "displayName": "title",
+                        "name": "title",
+                        "type": 1,
+                        "value": "Name"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "name",
+                        "displayName": "field",
+                        "name": "field",
+                        "type": 1,
+                        "value": "name"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "formatter",
+                        "name": "formatter",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "sorter",
+                        "name": "sorter",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "hozAlign",
+                        "name": "hozAlign",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "150",
+                        "displayName": "width",
+                        "name": "width",
+                        "type": 1,
+                        "value": "150"
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "0",
+                    "name": "0",
+                    "type": 2,
+                    "value": null
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [],
+                        "computedValue": "Age",
+                        "displayName": "title",
+                        "name": "title",
+                        "type": 1,
+                        "value": "Age"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "age",
+                        "displayName": "field",
+                        "name": "field",
+                        "type": 1,
+                        "value": "age"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "progress",
+                        "displayName": "formatter",
+                        "name": "formatter",
+                        "type": 1,
+                        "value": "progress"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "sorter",
+                        "name": "sorter",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "left",
+                        "displayName": "hozAlign",
+                        "name": "hozAlign",
+                        "type": 1,
+                        "value": "left"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "width",
+                        "name": "width",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "1",
+                    "name": "1",
+                    "type": 2,
+                    "value": null
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [],
+                        "computedValue": "Favourite Color",
+                        "displayName": "title",
+                        "name": "title",
+                        "type": 1,
+                        "value": "Favourite Color"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "col",
+                        "displayName": "field",
+                        "name": "field",
+                        "type": 1,
+                        "value": "col"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "formatter",
+                        "name": "formatter",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "sorter",
+                        "name": "sorter",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "hozAlign",
+                        "name": "hozAlign",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "width",
+                        "name": "width",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "2",
+                    "name": "2",
+                    "type": 2,
+                    "value": null
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [],
+                        "computedValue": "Date Of Birth",
+                        "displayName": "title",
+                        "name": "title",
+                        "type": 1,
+                        "value": "Date Of Birth"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "dob",
+                        "displayName": "field",
+                        "name": "field",
+                        "type": 1,
+                        "value": "dob"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "formatter",
+                        "name": "formatter",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "date",
+                        "displayName": "sorter",
+                        "name": "sorter",
+                        "type": 1,
+                        "value": "date"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "center",
+                        "displayName": "hozAlign",
+                        "name": "hozAlign",
+                        "type": 1,
+                        "value": "center"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "width",
+                        "name": "width",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "3",
+                    "name": "3",
+                    "type": 2,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "columns",
+                "name": "columns",
+                "type": 4,
+                "value": null
+              },
+              {
+                "attributes": [],
+                "computedValue": "data",
+                "displayName": "bindingOption",
+                "name": "bindingOption",
+                "type": 1,
+                "value": "data"
+              },
+              {
+                "attributes": [],
+                "computedValue": "$.*",
+                "displayName": "query",
+                "name": "query",
+                "type": 1,
+                "value": "$.*"
+              },
+              {
+                "attributes": [],
+                "computedValue": "500",
+                "displayName": "height",
+                "name": "height",
+                "type": 1,
+                "value": "500"
+              },
+              {
+                "attributes": [],
+                "computedValue": "fitColumns",
+                "displayName": "layout",
+                "name": "layout",
+                "type": 1,
+                "value": "fitColumns"
+              }
+            ]
+          },
+          {
+            "contentPlugin": "datasource",
+            "contexts": [],
+            "label": "data",
+            "locked": false,
+            "name": "data",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "data",
+                "displayName": "plugin",
+                "name": "plugin",
+                "type": 1,
+                "value": "data"
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": '[\n  {\n    "id": 1,\n    "name": "Oli Bob",\n    "age": "12",\n    "col": "red",\n    "dob": ""\n  },\n  {\n    "id": 2,\n    "name": "Mary May",\n    "age": "1",\n    "col": "blue",\n    "dob": "14/05/1982"\n  },\n  {\n    "id": 3,\n    "name": "Christine Lobowski",\n    "age": "42",\n    "col": "green",\n    "dob": "22/05/1982"\n  },\n  {\n    "id": 4,\n    "name": "Brendon Philips",\n    "age": "125",\n    "col": "orange",\n    "dob": "01/08/1980"\n  },\n  {\n    "id": 5,\n    "name": "Margret Marmajuke",\n    "age": "16",\n    "col": "yellow",\n    "dob": "31/01/1999"\n  }\n]',
+                    "displayName": "data",
+                    "name": "data",
+                    "type": 1,
+                    "value": '[\n  {\n    "id": 1,\n    "name": "Oli Bob",\n    "age": "12",\n    "col": "red",\n    "dob": ""\n  },\n  {\n    "id": 2,\n    "name": "Mary May",\n    "age": "1",\n    "col": "blue",\n    "dob": "14/05/1982"\n  },\n  {\n    "id": 3,\n    "name": "Christine Lobowski",\n    "age": "42",\n    "col": "green",\n    "dob": "22/05/1982"\n  },\n  {\n    "id": 4,\n    "name": "Brendon Philips",\n    "age": "125",\n    "col": "orange",\n    "dob": "01/08/1980"\n  },\n  {\n    "id": 5,\n    "name": "Margret Marmajuke",\n    "age": "16",\n    "col": "yellow",\n    "dob": "31/01/1999"\n  }\n]'
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "settings",
+                "name": "settings",
+                "type": 2,
+                "value": null
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": "pane",
+                    "displayName": "type",
+                    "name": "type",
+                    "type": 1,
+                    "value": "pane"
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": null,
+                    "displayName": "bindings",
+                    "name": "bindings",
+                    "type": 4,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "renderer",
+                "name": "renderer",
+                "type": 2,
+                "value": null
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-tabulator-int",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "site": "spearhead",
+    "title": "Test Tabulator Int",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
     "contexts": [],
     "displayType": "page",
     "entityPermissions": {
@@ -26357,4 +26770,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-TUJJ2LBG.js.map
+//# sourceMappingURL=chunk-FOQ2HOO3.js.map
