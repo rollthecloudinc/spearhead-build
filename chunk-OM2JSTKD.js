@@ -14276,7 +14276,7 @@ var panelpages2 = [
                 "displayName": "Content",
                 "name": "content",
                 "type": 1,
-                "value": "Column 2"
+                "value": "Column 2 A"
               },
               {
                 "attributes": [],
@@ -28030,4 +28030,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-NJZJMM5Z.js.map
+//# sourceMappingURL=chunk-OM2JSTKD.js.map
