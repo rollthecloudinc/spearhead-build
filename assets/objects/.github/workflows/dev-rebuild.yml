@@ -1,0 +1,18 @@
+name: Trigger Dev Rebuild
+on:
+  push:
+    branches:
+      - dev
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  build:
+    uses: rollthecloudinc/quell/.github/workflows/trigger-other-repo-reusable.yml@master
+    with:
+      ENVIRONMENT: dev
+    secrets:
+      RTC_GITHUB_REGISTRY: ${{ secrets.RTC_GITHUB_REGISTRY }}
+      DESTINATION_USER: ${{ secrets.DESTINATION_USER }}
+      DESTINATION_REPO: ${{ secrets.DESTINATION_REPO }}
+      TARGET_BRANCH: ${{ secrets.TARGET_BRANCH }}
