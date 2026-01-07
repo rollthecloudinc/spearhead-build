@@ -4674,7 +4674,7 @@ var panelpages2 = [
         "data": {
           "exposedModule": "./QuillModule",
           "moduleName": "QuillModule",
-          "remoteEntry": "https://solid-quill.rollthecloud.com/remoteEntry.json"
+          "remoteEntry": "https://solid-quill.rollthecloud.com/20.0.0-alpha.44/remoteEntry.json"
         },
         "name": "quill-view",
         "plugin": "module"
@@ -25477,7 +25477,7 @@ var panelpages2 = [
         "data": {
           "exposedModule": "./TabulatorModule",
           "moduleName": "TabulatorModule",
-          "remoteEntry": "https://solid-tabulator.rollthecloud.com/remoteEntry.json"
+          "remoteEntry": "https://solid-tabulator.rollthecloud.com/20.0.0-alpha.44/remoteEntry.json"
         },
         "name": "plugin-tabulator",
         "plugin": "module"
@@ -28030,4 +28030,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-YSYY5US4.js.map
+//# sourceMappingURL=chunk-NJZJMM5Z.js.map
