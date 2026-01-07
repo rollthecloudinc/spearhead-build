@@ -14030,7 +14030,7 @@ export const panelpages = [
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "Column 2 A"
+							"value": "Column 2 B"
 						},
 						{
 							"attributes": [],
