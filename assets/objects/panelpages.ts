@@ -3813,7 +3813,7 @@ export const panelpages = [
 			"data": {
 				"exposedModule": "./QuillModule",
 				"moduleName": "QuillModule",
-				"remoteEntry": "https://solid-quill.rollthecloud.com/20.0.0-alpha.44/remoteEntry.json"
+				"remoteEntry": "https://solid-quill.rollthecloud.com/20.0.0-alpha.48/remoteEntry.json"
 			},
 			"name": "module",
 			"plugin": "module"
@@ -4483,7 +4483,7 @@ export const panelpages = [
 			"data": {
 				"exposedModule": "./QuillModule",
 				"moduleName": "QuillModule",
-				"remoteEntry": "https://solid-quill.rollthecloud.com/20.0.0-alpha.44/remoteEntry.json"
+				"remoteEntry": "https://solid-quill.rollthecloud.com/20.0.0-alpha.48/remoteEntry.json"
 			},
 			"name": "quill-view",
 			"plugin": "module"
