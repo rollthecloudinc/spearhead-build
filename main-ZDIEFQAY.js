@@ -1,0 +1,1 @@
+import{a as e}from"./chunk-DQPLHQK5.js";import{n as o}from"./chunk-NU3UAZ5R.js";o();o();e().catch(r=>console.error("Error loading federation configuration:",r)).then(r=>{import("./chunk-4MGOY42H.js").catch(t=>console.error(t))});
