@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../@smithy/util-utf8/dist-es/fromUtf8.browser.js"],
+  "sourcesContent": ["export const fromUtf8 = input => new TextEncoder().encode(input);"],
+  "mappings": "AAAO,IAAMA,EAAWC,GAAS,IAAI,YAAY,EAAE,OAAOA,CAAK",
+  "names": ["fromUtf8", "input"]
+}
