@@ -4445,6 +4445,27 @@ export const panelpages = [
 			]
 		}
 	},
+  	"prerender": {
+    	"route": "/listing/[.id]",
+    	"datasource": {
+      	"settings": [
+        	{
+          		"attributes": [],
+          		"name": "data",
+          		"displayName": "data",
+          		"type": 1,
+          		"value": "[{\"id\": \"abc\"}]",
+          		"computedValue": "[{\"id\": \"abc\"}]"
+        	}
+      	],
+      	"params": [],
+      	"plugin": "data",
+      	"renderer": {
+        	"type": "pane",
+        	"bindings": []
+      	}
+    }
+  },
 	"rowSettings": [
 		{
 			"settings": []
@@ -4876,6 +4897,117 @@ export const panelpages = [
 	"site": "spearhead",
 	"title": "plugin-amcharts-refs-test-1",
 	"userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
+}
+,
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "5f90fa17-42f2-4c9c-aa3d-19846eaff4c7",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "prerender-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "Prerender Int",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "Prerender Int"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/prerender-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {
+		"datasource": {
+			"params": [],
+			"plugin": "data",
+			"renderer": {
+				"bindings": [],
+				"type": "pane"
+			},
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "[{\"id\":\"abc\"}]",
+					"displayName": "data",
+					"name": "data",
+					"type": 1,
+					"value": "[{\"id\":\"abc\"}]"
+				}
+			]
+		},
+		"route": "/listing/[.id]"
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "ipe",
+	"title": "Prerender Int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
 }
 ,
 {

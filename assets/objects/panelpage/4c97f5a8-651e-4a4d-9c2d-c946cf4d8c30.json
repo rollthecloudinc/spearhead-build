@@ -637,6 +637,27 @@
 			]
 		}
 	},
+  	"prerender": {
+    	"route": "/listing/[.id]",
+    	"datasource": {
+      	"settings": [
+        	{
+          		"attributes": [],
+          		"name": "data",
+          		"displayName": "data",
+          		"type": 1,
+          		"value": "[{\"id\": \"abc\"}]",
+          		"computedValue": "[{\"id\": \"abc\"}]"
+        	}
+      	],
+      	"params": [],
+      	"plugin": "data",
+      	"renderer": {
+        	"type": "pane",
+        	"bindings": []
+      	}
+    }
+  },
 	"rowSettings": [
 		{
 			"settings": []
