@@ -27506,7 +27506,7 @@ export const panelpages = [
 			"data": {
 				"exposedModule": "./DownloadModule",
 				"moduleName": "DownloadModule",
-				"remoteEntry": "https://solid.rollthecloud.com/remoteEntry.json"
+				"remoteEntry": "https://solid.rollthecloud.com/20.0.0-alpha.48/remoteEntry.json"
 			},
 			"name": "module",
 			"plugin": "module"
