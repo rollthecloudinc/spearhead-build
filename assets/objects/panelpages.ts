@@ -12262,10 +12262,17 @@ export const panelpages = [
 	},
 	"gridItems": [
 		{
-			"cols": 19,
+			"cols": 15,
 			"rows": 1,
 			"weight": 0,
 			"x": 0,
+			"y": 0
+		},
+		{
+			"cols": 85,
+			"rows": 1,
+			"weight": 1,
+			"x": 1,
 			"y": 0
 		}
 	],
@@ -12285,7 +12292,41 @@ export const panelpages = [
 			"columnSetting": {
 				"settings": []
 			},
-			"panes": [],
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "Sidebar Content",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "Sidebar Content"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
 			"settings": [],
 			"stylePlugin": ""
 		},
@@ -12300,9 +12341,21 @@ export const panelpages = [
 					"label": "e2a35a54-4f5a-4628-b52d-b38f2da3e8b7",
 					"locked": true,
 					"name": "e2a35a54-4f5a-4628-b52d-b38f2da3e8b7",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": []
 				}
 			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
 		}
