@@ -211,6 +211,7 @@ var panelpages = [
   ["5f90fa17-42f2-4c9c-aa3d-19846eaff4c7", "/prerender-int"],
   ["602e1760-d580-46f4-9218-2e856f18aa33", "/test-outsider-app"],
   ["63a4219d-254e-11ec-ab14-c613312e594f", "/dev-test-virtual-list-flex-v1"],
+  ["68460cd7-5521-4be3-bfc9-7dd79dccc45c", "*"],
   ["698fe356-4548-4de8-81f4-ac7ee643b63d", "/test-solid-automation"],
   ["6b4bc3f2-5138-491b-a718-e342f6828a62", "/test-simple-form"],
   ["6dbdcd27-3bc4-44fc-9f47-ef1b2e0473b1", "/test-gallery-int"],
@@ -12484,6 +12485,79 @@ var panelpages2 = [
     "site": "ipe",
     "title": "Dev Test Virtual List Flex v1",
     "userId": "e36b42fe-b09c-4514-a519-e178bb52957e"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 19,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "68460cd7-5521-4be3-bfc9-7dd79dccc45c",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "test-decorator",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [],
+        "settings": [],
+        "stylePlugin": ""
+      },
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "yield",
+            "contexts": [],
+            "label": "e2a35a54-4f5a-4628-b52d-b38f2da3e8b7",
+            "locked": true,
+            "name": "e2a35a54-4f5a-4628-b52d-b38f2da3e8b7",
+            "settings": []
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "*",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "site": "ipe",
+    "title": "Test Decorator",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
   },
   {
     "contexts": [
@@ -28189,4 +28263,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-4NIFGVG2.js.map
+//# sourceMappingURL=chunk-EKF6ZWU5.js.map
