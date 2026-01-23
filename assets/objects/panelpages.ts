@@ -12314,11 +12314,11 @@ export const panelpages = [
 						},
 						{
 							"attributes": [],
-							"computedValue": "Sidebar Content\n\n<classifieds-ui-page-router-link href=\"/native_forms_rebuild_v1\" text=\"Forms\"></classifieds-ui-page-router-link>\n<classifieds-ui-page-router-link href=\"/justwork\" text=\"Justwork\"></classifieds-ui-page-router-link>",
+							"computedValue": "Sidebar Content\n<ul>\n<li><classifieds-ui-page-router-link href=\"/native_forms_rebuild_v1\" text=\"Forms\"></classifieds-ui-page-router-link></li>\n<li><classifieds-ui-page-router-link href=\"/justwork\" text=\"Justwork\"></classifieds-ui-page-router-link></li>\n</ul>",
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "Sidebar Content\n\n<classifieds-ui-page-router-link href=\"/native_forms_rebuild_v1\" text=\"Forms\"></classifieds-ui-page-router-link>\n<classifieds-ui-page-router-link href=\"/justwork\" text=\"Justwork\"></classifieds-ui-page-router-link>"
+							"value": "Sidebar Content\n<ul>\n<li><classifieds-ui-page-router-link href=\"/native_forms_rebuild_v1\" text=\"Forms\"></classifieds-ui-page-router-link></li>\n<li><classifieds-ui-page-router-link href=\"/justwork\" text=\"Justwork\"></classifieds-ui-page-router-link></li>\n</ul>"
 						},
 						{
 							"attributes": [],
