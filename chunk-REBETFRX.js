@@ -12535,6 +12535,10 @@ var panelpages2 = [
             "label": "",
             "locked": false,
             "name": "",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [],
@@ -12546,11 +12550,11 @@ var panelpages2 = [
               },
               {
                 "attributes": [],
-                "computedValue": "Sidebar Content",
+                "computedValue": 'Sidebar Content\n\n<classifieds-ui-page-router-link href="/native_forms_rebuild_v1" text="Forms"></classifieds-ui-pa\n<classifieds-ui-page-router-link href="/justwork" text="Justwork"></classifieds-ui-pa',
                 "displayName": "Content",
                 "name": "content",
                 "type": 1,
-                "value": "Sidebar Content"
+                "value": 'Sidebar Content\n\n<classifieds-ui-page-router-link href="/native_forms_rebuild_v1" text="Forms"></classifieds-ui-pa\n<classifieds-ui-page-router-link href="/justwork" text="Justwork"></classifieds-ui-pa'
               },
               {
                 "attributes": [],
@@ -28316,4 +28320,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-BLPQBC22.js.map
+//# sourceMappingURL=chunk-REBETFRX.js.map
