@@ -12550,11 +12550,11 @@ var panelpages2 = [
               },
               {
                 "attributes": [],
-                "computedValue": 'Sidebar Content\n\n<classifieds-ui-page-router-link href="/native_forms_rebuild_v1" text="Forms"></classifieds-ui-pa\n<classifieds-ui-page-router-link href="/justwork" text="Justwork"></classifieds-ui-pa',
+                "computedValue": 'Sidebar Content\n\n<classifieds-ui-page-router-link href="/native_forms_rebuild_v1" text="Forms"></classifieds-ui-page-router-link>\n<classifieds-ui-page-router-link href="/justwork" text="Justwork"></classifieds-ui-page-router-link>',
                 "displayName": "Content",
                 "name": "content",
                 "type": 1,
-                "value": 'Sidebar Content\n\n<classifieds-ui-page-router-link href="/native_forms_rebuild_v1" text="Forms"></classifieds-ui-pa\n<classifieds-ui-page-router-link href="/justwork" text="Justwork"></classifieds-ui-pa'
+                "value": 'Sidebar Content\n\n<classifieds-ui-page-router-link href="/native_forms_rebuild_v1" text="Forms"></classifieds-ui-page-router-link>\n<classifieds-ui-page-router-link href="/justwork" text="Justwork"></classifieds-ui-page-router-link>'
               },
               {
                 "attributes": [],
@@ -28320,4 +28320,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-REBETFRX.js.map
+//# sourceMappingURL=chunk-3JE3BI5U.js.map
