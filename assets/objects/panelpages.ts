@@ -25513,7 +25513,7 @@ export const panelpages = [
 			"data": {
 				"exposedModule": "./TabulatorModule",
 				"moduleName": "TabulatorModule",
-				"remoteEntry": "https://solid-tabulator.rollthecloud.com/20.0.0-alpha.48/remoteEntry.json"
+				"remoteEntry": "https://solid-tabulator.rollthecloud.com/20.0.0-alpha.51/remoteEntry.json"
 			},
 			"name": "plugin-tabulator",
 			"plugin": "module"

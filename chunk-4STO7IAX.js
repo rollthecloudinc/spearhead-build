@@ -25767,7 +25767,7 @@ var panelpages2 = [
         "data": {
           "exposedModule": "./TabulatorModule",
           "moduleName": "TabulatorModule",
-          "remoteEntry": "https://solid-tabulator.rollthecloud.com/20.0.0-alpha.48/remoteEntry.json"
+          "remoteEntry": "https://solid-tabulator.rollthecloud.com/20.0.0-alpha.51/remoteEntry.json"
         },
         "name": "plugin-tabulator",
         "plugin": "module"
@@ -28334,4 +28334,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-VLWSB2DD.js.map
+//# sourceMappingURL=chunk-4STO7IAX.js.map
