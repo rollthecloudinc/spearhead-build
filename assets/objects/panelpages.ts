@@ -26302,6 +26302,97 @@ export const panelpages = [
 			"y": 0
 		}
 	],
+	"id": "da4e6794-aa20-4f9b-a65c-793325d72559",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-icon-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "icon",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "home",
+							"displayName": "iconName",
+							"name": "iconName",
+							"type": 1,
+							"value": "home"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "label",
+							"name": "label",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "decorative",
+							"displayName": "category",
+							"name": "category",
+							"type": 1,
+							"value": "decorative"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-icon-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "ipe",
+	"title": "Test Icon Int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
 	"id": "dabb26e7-832e-4bac-bc55-1a20b620128d",
 	"interactions": {
 		"interactions": {

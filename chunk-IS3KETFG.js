@@ -235,6 +235,7 @@ var panelpages = [
   ["d4c19130-45fe-4188-96d1-7aaa276f6c3f", "/test-tabulator-int"],
   ["d52e24fa-470f-4d7c-815e-41f33f89b2bc", "/justsave"],
   ["d75c2267-0eb1-4238-ad0e-7d4b0d1d4801", "/plugin-amcharts-refs-test-1"],
+  ["da4e6794-aa20-4f9b-a65c-793325d72559", "/test-icon-int"],
   ["dabb26e7-832e-4bac-bc55-1a20b620128d", "/test-outsider-app"],
   ["e39fa739-b354-45cb-8a35-5c9e54d28d6f", "/json-chart-example-1"],
   ["ea772618-b95c-405c-a7a7-5d252c8fb74f", "/test-link-int"],
@@ -26554,6 +26555,96 @@ var panelpages2 = [
         "y": 0
       }
     ],
+    "id": "da4e6794-aa20-4f9b-a65c-793325d72559",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "test-icon-int",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "icon",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "home",
+                "displayName": "iconName",
+                "name": "iconName",
+                "type": 1,
+                "value": "home"
+              },
+              {
+                "attributes": [],
+                "computedValue": "",
+                "displayName": "label",
+                "name": "label",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "attributes": [],
+                "computedValue": "decorative",
+                "displayName": "category",
+                "name": "category",
+                "type": 1,
+                "value": "decorative"
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-icon-int",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "site": "ipe",
+    "title": "Test Icon Int",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
     "id": "dabb26e7-832e-4bac-bc55-1a20b620128d",
     "interactions": {
       "interactions": {
@@ -28899,4 +28990,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-LEKI4TXG.js.map
+//# sourceMappingURL=chunk-IS3KETFG.js.map
