@@ -239,6 +239,7 @@ var panelpages = [
   ["eaa608c2-17fd-48ad-924e-8a29fc8c72cb", "/upload-file-form"],
   ["ecacb624-716e-47fd-b62d-4ad4f4b9cf1f", "/test-2025"],
   ["ef53a364-bca8-4f7a-a458-44138d423f5f", "/interactions-basic-example"],
+  ["efac97c5-5253-4e42-87ab-73fbd82e96dd", "/test-menu-int"],
   ["f3ecdb90-080e-4791-afaf-073d43bc8228", "/justwork"],
   ["fbac7b08-0607-41e0-aebe-57d072b3c428", "/test-module-federation"],
   ["fc69e899-1c7d-47cc-bc63-260037d76381", "/test-simple-form"]
@@ -27802,6 +27803,196 @@ var panelpages2 = [
       ],
       "writeUserIds": []
     },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "efac97c5-5253-4e42-87ab-73fbd82e96dd",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "test-menu-int",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "menu",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [],
+                        "computedValue": "dialpad",
+                        "displayName": "iconName",
+                        "name": "iconName",
+                        "type": 1,
+                        "value": "dialpad"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "Redial",
+                        "displayName": "text",
+                        "name": "text",
+                        "type": 1,
+                        "value": "Redial"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "redial",
+                        "displayName": "action",
+                        "name": "action",
+                        "type": 1,
+                        "value": "redial"
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "0",
+                    "name": "0",
+                    "type": 2,
+                    "value": null
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [],
+                        "computedValue": "voicemail",
+                        "displayName": "iconName",
+                        "name": "iconName",
+                        "type": 1,
+                        "value": "voicemail"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "Check voice mail",
+                        "displayName": "text",
+                        "name": "text",
+                        "type": 1,
+                        "value": "Check voice mail"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "check-voicemail",
+                        "displayName": "action",
+                        "name": "action",
+                        "type": 1,
+                        "value": "check-voicemail"
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "1",
+                    "name": "1",
+                    "type": 2,
+                    "value": null
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [],
+                        "computedValue": "notifications_off",
+                        "displayName": "iconName",
+                        "name": "iconName",
+                        "type": 1,
+                        "value": "notifications_off"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "Disable alerts",
+                        "displayName": "text",
+                        "name": "text",
+                        "type": 1,
+                        "value": "Disable alerts"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "disable-alerts",
+                        "displayName": "action",
+                        "name": "action",
+                        "type": 1,
+                        "value": "disable-alerts"
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "2",
+                    "name": "2",
+                    "type": 2,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "items",
+                "name": "items",
+                "type": 4,
+                "value": null
+              },
+              {
+                "attributes": [],
+                "computedValue": "Example icon-button with a menu",
+                "displayName": "label",
+                "name": "label",
+                "type": 1,
+                "value": "Example icon-button with a menu"
+              },
+              {
+                "attributes": [],
+                "computedValue": "more_vert",
+                "displayName": "iconName",
+                "name": "iconName",
+                "type": 1,
+                "value": "more_vert"
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-menu-int",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "site": "ipe",
+    "title": "Test Menu Int",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
     "gridItems": [],
     "id": "f3ecdb90-080e-4791-afaf-073d43bc8228",
     "interactions": {
@@ -28334,4 +28525,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-IROSA4V2.js.map
+//# sourceMappingURL=chunk-H7FZG7JK.js.map
