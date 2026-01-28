@@ -25879,6 +25879,84 @@ var panelpages2 = [
     "entityPermissions": {
       "deleteUserIds": [],
       "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "cc209800-7fcc-4277-8a25-2b51dda13fc9",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "justwork-decorator",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "yield",
+            "contexts": [],
+            "label": "06558633-1d5e-461f-b556-dfa1b0b586d1",
+            "locked": true,
+            "name": "06558633-1d5e-461f-b556-dfa1b0b586d1",
+            "settings": []
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "*",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "selection": {
+      "priority": 1,
+      "rule": {
+        "condition": "and",
+        "rules": [
+          {
+            "field": "_route.path",
+            "operator": "=",
+            "value": "/justwork"
+          }
+        ]
+      }
+    },
+    "site": "ipe",
+    "title": "Justwork Decorator",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
         ""
       ],
       "writeUserIds": []
@@ -29488,4 +29566,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-J7K6DL7L.js.map
+//# sourceMappingURL=chunk-XLKRRCMJ.js.map
