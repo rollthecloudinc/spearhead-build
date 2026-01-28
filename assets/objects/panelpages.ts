@@ -26469,6 +26469,89 @@ export const panelpages = [
 ,
 {
 	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "ea772618-b95c-405c-a7a7-5d252c8fb74f",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-link-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "link",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Test Me",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Test Me"
+						},
+						{
+							"attributes": [],
+							"computedValue": "/justwork",
+							"displayName": "url",
+							"name": "url",
+							"type": 1,
+							"value": "/justwork"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-link-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "ipe",
+	"title": "Test Link Int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
+	"contexts": [],
 	"displayType": "form",
 	"entityPermissions": {
 		"deleteUserIds": [],

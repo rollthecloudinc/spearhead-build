@@ -237,6 +237,7 @@ var panelpages = [
   ["d75c2267-0eb1-4238-ad0e-7d4b0d1d4801", "/plugin-amcharts-refs-test-1"],
   ["dabb26e7-832e-4bac-bc55-1a20b620128d", "/test-outsider-app"],
   ["e39fa739-b354-45cb-8a35-5c9e54d28d6f", "/json-chart-example-1"],
+  ["ea772618-b95c-405c-a7a7-5d252c8fb74f", "/test-link-int"],
   ["eaa608c2-17fd-48ad-924e-8a29fc8c72cb", "/upload-file-form"],
   ["ecacb624-716e-47fd-b62d-4ad4f4b9cf1f", "/test-2025"],
   ["ef53a364-bca8-4f7a-a458-44138d423f5f", "/interactions-basic-example"],
@@ -26717,6 +26718,88 @@ var panelpages2 = [
   },
   {
     "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "ea772618-b95c-405c-a7a7-5d252c8fb74f",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "test-link-int",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "link",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "Test Me",
+                "displayName": "text",
+                "name": "text",
+                "type": 1,
+                "value": "Test Me"
+              },
+              {
+                "attributes": [],
+                "computedValue": "/justwork",
+                "displayName": "url",
+                "name": "url",
+                "type": 1,
+                "value": "/justwork"
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-link-int",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "site": "ipe",
+    "title": "Test Link Int",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
+    "contexts": [],
     "displayType": "form",
     "entityPermissions": {
       "deleteUserIds": [],
@@ -28816,4 +28899,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-T3STHUZR.js.map
+//# sourceMappingURL=chunk-LEKI4TXG.js.map
