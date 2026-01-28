@@ -27633,6 +27633,7 @@ export const panelpages = [
 						}
 					},
 					"handler": {
+						"plugin": "hello_world",
 						"settings": {}
 					}
 				},
