@@ -1,0 +1,79 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [],
+	"id": "888ee379-300f-4082-ac1b-75efe6aa659c",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "test-popover-content",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "Popover Content",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "Popover Content"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-popover-content",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [],
+	"selection": {},
+	"site": "ipe",
+	"title": "Test Popover Content",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}

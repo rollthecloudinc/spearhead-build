@@ -219,6 +219,7 @@ var panelpages = [
   ["6dbdcd27-3bc4-44fc-9f47-ef1b2e0473b1", "/test-gallery-int"],
   ["78de9a09-b3ae-428d-8e69-4e25b59cc13f", "/ng-flex-migration-test"],
   ["888b9746-9cc1-43dc-8edb-1868e64b36a5", "/test-2025"],
+  ["888ee379-300f-4082-ac1b-75efe6aa659c", "/test-popover-content"],
   ["8ebbcdb3-300f-4739-8cb3-6c5d4c402638", "/am-charts-visual-editor-bar-chart-test"],
   ["95fe8adf-f60b-4e2e-bc02-9026a4531144", "/test-dialog-interaction"],
   ["96050a0f-cc1a-4a31-bc47-8c9fe065745a", "/hello-2025"],
@@ -16338,6 +16339,85 @@ var panelpages2 = [
     "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
   },
   {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [],
+    "id": "888ee379-300f-4082-ac1b-75efe6aa659c",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "gridless",
+    "name": "test-popover-content",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "snippet",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "text/html",
+                "displayName": "Content Type",
+                "name": "contentType",
+                "type": 1,
+                "value": "text/html"
+              },
+              {
+                "attributes": [],
+                "computedValue": "Popover Content",
+                "displayName": "Content",
+                "name": "content",
+                "type": 1,
+                "value": "Popover Content"
+              },
+              {
+                "attributes": [],
+                "computedValue": null,
+                "displayName": "jsScript",
+                "name": "jsScript",
+                "type": 1,
+                "value": null
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-popover-content",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [],
+    "selection": {},
+    "site": "ipe",
+    "title": "Test Popover Content",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
     "contexts": [
       {
         "adaptor": "data",
@@ -29738,4 +29818,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-NLZNWGTS.js.map
+//# sourceMappingURL=chunk-LDFHLNPO.js.map
