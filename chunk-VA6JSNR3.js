@@ -25915,6 +25915,10 @@ var panelpages2 = [
             "label": "06558633-1d5e-461f-b556-dfa1b0b586d1",
             "locked": true,
             "name": "06558633-1d5e-461f-b556-dfa1b0b586d1",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": []
           }
         ],
@@ -25942,7 +25946,7 @@ var panelpages2 = [
           {
             "field": "_route.path",
             "operator": "=",
-            "value": "/justwork"
+            "value": "/pages/panelpage/c38d4c9a-c2c7-4d9a-9d89-6a5c5425a372"
           }
         ]
       }
@@ -29566,4 +29570,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-XLKRRCMJ.js.map
+//# sourceMappingURL=chunk-VA6JSNR3.js.map
