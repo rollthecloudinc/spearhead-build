@@ -3052,15 +3052,7 @@ var panelpages2 = [
       ],
       "writeUserIds": []
     },
-    "gridItems": [
-      {
-        "cols": 100,
-        "rows": 1,
-        "weight": 0,
-        "x": 0,
-        "y": 0
-      }
-    ],
+    "gridItems": [],
     "id": "0fa450de-6383-4873-bd2e-110f62d66e9d",
     "interactions": {
       "interactions": {
@@ -3070,7 +3062,7 @@ var panelpages2 = [
     "layoutSetting": {
       "settings": []
     },
-    "layoutType": "split",
+    "layoutType": "gridless",
     "name": "test-sidenav-int",
     "panels": [
       {
@@ -3084,6 +3076,10 @@ var panelpages2 = [
             "label": "20ac7048-8f76-4f21-aa3d-63b56cf9eb77",
             "locked": false,
             "name": "20ac7048-8f76-4f21-aa3d-63b56cf9eb77",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [],
@@ -3458,6 +3454,10 @@ var panelpages2 = [
             "label": "",
             "locked": false,
             "name": "",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [],
@@ -29455,4 +29455,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-NADUWK23.js.map
+//# sourceMappingURL=chunk-VQZ6IMZW.js.map

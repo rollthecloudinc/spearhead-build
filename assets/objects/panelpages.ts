@@ -2798,15 +2798,7 @@ export const panelpages = [
 		],
 		"writeUserIds": []
 	},
-	"gridItems": [
-		{
-			"cols": 100,
-			"rows": 1,
-			"weight": 0,
-			"x": 0,
-			"y": 0
-		}
-	],
+	"gridItems": [],
 	"id": "0fa450de-6383-4873-bd2e-110f62d66e9d",
 	"interactions": {
 		"interactions": {
@@ -2816,7 +2808,7 @@ export const panelpages = [
 	"layoutSetting": {
 		"settings": []
 	},
-	"layoutType": "split",
+	"layoutType": "gridless",
 	"name": "test-sidenav-int",
 	"panels": [
 		{
@@ -2830,6 +2822,10 @@ export const panelpages = [
 					"label": "20ac7048-8f76-4f21-aa3d-63b56cf9eb77",
 					"locked": false,
 					"name": "20ac7048-8f76-4f21-aa3d-63b56cf9eb77",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -3204,6 +3200,10 @@ export const panelpages = [
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],

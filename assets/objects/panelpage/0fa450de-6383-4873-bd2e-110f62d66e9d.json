@@ -8,15 +8,7 @@
 		],
 		"writeUserIds": []
 	},
-	"gridItems": [
-		{
-			"cols": 100,
-			"rows": 1,
-			"weight": 0,
-			"x": 0,
-			"y": 0
-		}
-	],
+	"gridItems": [],
 	"id": "0fa450de-6383-4873-bd2e-110f62d66e9d",
 	"interactions": {
 		"interactions": {
@@ -26,7 +18,7 @@
 	"layoutSetting": {
 		"settings": []
 	},
-	"layoutType": "split",
+	"layoutType": "gridless",
 	"name": "test-sidenav-int",
 	"panels": [
 		{
@@ -40,6 +32,10 @@
 					"label": "20ac7048-8f76-4f21-aa3d-63b56cf9eb77",
 					"locked": false,
 					"name": "20ac7048-8f76-4f21-aa3d-63b56cf9eb77",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -414,6 +410,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
