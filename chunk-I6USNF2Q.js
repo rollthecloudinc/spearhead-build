@@ -27815,7 +27815,73 @@ var panelpages2 = [
     "id": "efac97c5-5253-4e42-87ab-73fbd82e96dd",
     "interactions": {
       "interactions": {
-        "listeners": []
+        "listeners": [
+          {
+            "event": {
+              "plugin": "dom",
+              "settings": {
+                "params": [
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": "click",
+                      "type": "static",
+                      "value": "click"
+                    }
+                  },
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": ".action-redial",
+                      "type": "static",
+                      "value": ".action-redial"
+                    }
+                  }
+                ],
+                "paramsString": "type=:type&target=:target"
+              }
+            },
+            "handler": {
+              "settings": {}
+            }
+          }
+        ]
       }
     },
     "layoutSetting": {
@@ -27835,6 +27901,10 @@ var panelpages2 = [
             "label": "",
             "locked": false,
             "name": "",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [
@@ -28525,4 +28595,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-H7FZG7JK.js.map
+//# sourceMappingURL=chunk-I6USNF2Q.js.map
