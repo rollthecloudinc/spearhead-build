@@ -179,6 +179,6 @@ function processHostInfo(hostInfo, relBundlesPath = "./") {
 
 // projects/spear/src/main.ts
 initFederation().catch((err) => console.error("Error loading federation configuration:", err)).then((_) => {
-  import("./chunk-3W3U2DRY.js").catch((err) => console.error(err));
+  import("./chunk-XU6DM7AE.js").catch((err) => console.error(err));
 });
-//# sourceMappingURL=main-6ELKVQ4V.js.map
+//# sourceMappingURL=main-AHOHM2VU.js.map

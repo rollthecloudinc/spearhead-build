@@ -24430,6 +24430,89 @@ export const panelpages = [
 		],
 		"writeUserIds": []
 	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "c15cd640-8256-42f0-8007-8a227e5cbcd3",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-button-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Test Button",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Test Button"
+						},
+						{
+							"attributes": [],
+							"computedValue": "test",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": "test"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-button-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "ipe",
+	"title": "Test Button Int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
 	"gridItems": [],
 	"id": "c38d4c9a-c2c7-4d9a-9d89-6a5c5425a372",
 	"interactions": {

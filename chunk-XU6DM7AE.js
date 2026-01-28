@@ -224,6 +224,7 @@ var panelpages = [
   ["bad7cc2e-75fe-4137-9c36-d7777273ff80", "/upload-file-form"],
   ["bb66aa62-8635-4015-86c9-ba4f208b0856", "/native_forms_rebuild_v1"],
   ["bd29f806-3b4b-4b79-9dac-7a5ae221f432", "/hello-world"],
+  ["c15cd640-8256-42f0-8007-8a227e5cbcd3", "/test-button-int"],
   ["c38d4c9a-c2c7-4d9a-9d89-6a5c5425a372", "/justwork"],
   ["c3a91907-8bfb-460f-9e50-f7c84e8dbfe4", "/test-dialog-interaction"],
   ["c8feab31-84b9-49a1-95a3-989ad3211eac", "/datasource-test"],
@@ -24692,6 +24693,88 @@ var panelpages2 = [
       ],
       "writeUserIds": []
     },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "c15cd640-8256-42f0-8007-8a227e5cbcd3",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "test-button-int",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "button",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "Test Button",
+                "displayName": "text",
+                "name": "text",
+                "type": 1,
+                "value": "Test Button"
+              },
+              {
+                "attributes": [],
+                "computedValue": "test",
+                "displayName": "action",
+                "name": "action",
+                "type": 1,
+                "value": "test"
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-button-int",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "site": "ipe",
+    "title": "Test Button Int",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
     "gridItems": [],
     "id": "c38d4c9a-c2c7-4d9a-9d89-6a5c5425a372",
     "interactions": {
@@ -28662,4 +28745,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-3W3U2DRY.js.map
+//# sourceMappingURL=chunk-XU6DM7AE.js.map
