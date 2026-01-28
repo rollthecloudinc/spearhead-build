@@ -27878,6 +27878,71 @@ var panelpages2 = [
               }
             },
             "handler": {
+              "settings": {}
+            }
+          },
+          {
+            "event": {
+              "plugin": "dom",
+              "settings": {
+                "params": [
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": "click",
+                      "type": "static",
+                      "value": "click"
+                    }
+                  },
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": ".action-check-voicemail",
+                      "type": "static",
+                      "value": ".action-check-voicemail"
+                    }
+                  }
+                ],
+                "paramsString": "type=:type&target=:target"
+              }
+            },
+            "handler": {
               "plugin": "hello_world",
               "settings": {}
             }
@@ -28596,4 +28661,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-IWOQFU4U.js.map
+//# sourceMappingURL=chunk-QD2ILTAM.js.map

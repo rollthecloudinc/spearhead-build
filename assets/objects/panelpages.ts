@@ -27633,6 +27633,71 @@ export const panelpages = [
 						}
 					},
 					"handler": {
+						"settings": {}
+					}
+				},
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "click",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": ".action-check-voicemail",
+										"type": "static",
+										"value": ".action-check-voicemail"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:target"
+						}
+					},
+					"handler": {
 						"plugin": "hello_world",
 						"settings": {}
 					}
