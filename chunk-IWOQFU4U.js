@@ -27878,6 +27878,7 @@ var panelpages2 = [
               }
             },
             "handler": {
+              "plugin": "hello_world",
               "settings": {}
             }
           }
@@ -28595,4 +28596,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-I6USNF2Q.js.map
+//# sourceMappingURL=chunk-IWOQFU4U.js.map
