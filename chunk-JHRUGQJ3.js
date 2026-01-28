@@ -4131,7 +4131,104 @@ var panelpages2 = [
     "id": "34f3542f-bada-4a46-a91d-25c22bb30e4f",
     "interactions": {
       "interactions": {
-        "listeners": []
+        "listeners": [
+          {
+            "event": {
+              "plugin": "dom",
+              "settings": {
+                "params": [
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": "click",
+                      "type": "static",
+                      "value": "click"
+                    }
+                  },
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": ".action-popover",
+                      "type": "static",
+                      "value": ".action-popover"
+                    }
+                  }
+                ],
+                "paramsString": "type=:type&target=:target"
+              }
+            },
+            "handler": {
+              "plugin": "anchored_dialog",
+              "settings": {
+                "params": [
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": "888ee379-300f-4082-ac1b-75efe6aa659c",
+                      "type": "static",
+                      "value": "888ee379-300f-4082-ac1b-75efe6aa659c"
+                    }
+                  }
+                ],
+                "paramsString": "panelPageId=:panelPageId"
+              }
+            }
+          }
+        ]
       }
     },
     "layoutSetting": {
@@ -4151,6 +4248,10 @@ var panelpages2 = [
             "label": "",
             "locked": false,
             "name": "",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [],
@@ -29818,4 +29919,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-LDFHLNPO.js.map
+//# sourceMappingURL=chunk-JHRUGQJ3.js.map
