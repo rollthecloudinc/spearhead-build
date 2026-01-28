@@ -3486,7 +3486,40 @@ var panelpages2 = [
             ]
           }
         ],
-        "settings": [],
+        "settings": [
+          {
+            "attributes": [],
+            "computedValue": "side",
+            "displayName": "mode",
+            "name": "mode",
+            "type": 1,
+            "value": "side"
+          },
+          {
+            "attributes": [],
+            "computedValue": "start",
+            "displayName": "position",
+            "name": "position",
+            "type": 1,
+            "value": "start"
+          },
+          {
+            "attributes": [],
+            "computedValue": "true",
+            "displayName": "opened",
+            "name": "opened",
+            "type": 5,
+            "value": "true"
+          },
+          {
+            "attributes": [],
+            "computedValue": "400",
+            "displayName": "width",
+            "name": "width",
+            "type": 0,
+            "value": "400"
+          }
+        ],
         "stylePlugin": "sidenav"
       }
     ],
@@ -29455,4 +29488,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-VQZ6IMZW.js.map
+//# sourceMappingURL=chunk-J7K6DL7L.js.map

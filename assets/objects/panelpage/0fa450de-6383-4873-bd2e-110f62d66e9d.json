@@ -442,7 +442,40 @@
 					]
 				}
 			],
-			"settings": [],
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "side",
+					"displayName": "mode",
+					"name": "mode",
+					"type": 1,
+					"value": "side"
+				},
+				{
+					"attributes": [],
+					"computedValue": "start",
+					"displayName": "position",
+					"name": "position",
+					"type": 1,
+					"value": "start"
+				},
+				{
+					"attributes": [],
+					"computedValue": "true",
+					"displayName": "opened",
+					"name": "opened",
+					"type": 5,
+					"value": "true"
+				},
+				{
+					"attributes": [],
+					"computedValue": "400",
+					"displayName": "width",
+					"name": "width",
+					"type": 0,
+					"value": "400"
+				}
+			],
 			"stylePlugin": "sidenav"
 		}
 	],
