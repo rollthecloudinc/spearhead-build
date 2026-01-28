@@ -203,6 +203,7 @@ var panelpages = [
   ["27dd9c10-c5e8-4997-b871-6084139baf65", "/test-popover-int"],
   ["286f9a5e-196d-4812-bd8a-235a164a1a97", "/am-charts-visual-editor-bar-chart-test"],
   ["2d94ada8-53f4-4e45-b7e5-8c07c796856d", "/test-datasource-select-v1"],
+  ["34f3542f-bada-4a46-a91d-25c22bb30e4f", "/test-popover-int"],
   ["37ebba18-506d-41c4-bff7-b6ef0affa67d", "/homes"],
   ["39d909df-81b4-486d-ba80-8fab88a14f9f", "/range-slider-test"],
   ["41cc92a0-bd34-4c06-a386-bd61b89bced8", "/homes"],
@@ -4105,6 +4106,89 @@ var panelpages2 = [
     ],
     "site": "spearhead",
     "title": "Test Datasource Select v1",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "34f3542f-bada-4a46-a91d-25c22bb30e4f",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "test-popover-int",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "button",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "Popover",
+                "displayName": "text",
+                "name": "text",
+                "type": 1,
+                "value": "Popover"
+              },
+              {
+                "attributes": [],
+                "computedValue": "popover",
+                "displayName": "action",
+                "name": "action",
+                "type": 1,
+                "value": "popover"
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-popover-int",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "selection": {},
+    "site": "ipe",
+    "title": "Test Popover Int",
     "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
   },
   {
@@ -29654,4 +29738,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-NU7Q36Y2.js.map
+//# sourceMappingURL=chunk-NLZNWGTS.js.map
