@@ -3373,6 +3373,90 @@ export const panelpages = [
 }
 ,
 {
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "27dd9c10-c5e8-4997-b871-6084139baf65",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-popover-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Popover",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Popover"
+						},
+						{
+							"attributes": [],
+							"computedValue": "popover",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": "popover"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-popover-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"selection": {},
+	"site": "ipe",
+	"title": "Test Popover Int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
 	"contexts": [
 		{
 			"adaptor": "data",

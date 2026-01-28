@@ -200,6 +200,7 @@ var panelpages = [
   ["0904fb75-1311-4763-b6e3-043239fb3a89", "/homes"],
   ["0fa450de-6383-4873-bd2e-110f62d66e9d", "/test-sidenav-int"],
   ["200e4ab8-922c-4a9c-a760-77bce3facf92", "/hedge-test"],
+  ["27dd9c10-c5e8-4997-b871-6084139baf65", "/test-popover-int"],
   ["286f9a5e-196d-4812-bd8a-235a164a1a97", "/am-charts-visual-editor-bar-chart-test"],
   ["2d94ada8-53f4-4e45-b7e5-8c07c796856d", "/test-datasource-select-v1"],
   ["37ebba18-506d-41c4-bff7-b6ef0affa67d", "/homes"],
@@ -3623,6 +3624,89 @@ var panelpages2 = [
     "site": "spearhead",
     "title": "Hedge Test",
     "userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "27dd9c10-c5e8-4997-b871-6084139baf65",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "test-popover-int",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "button",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "Popover",
+                "displayName": "text",
+                "name": "text",
+                "type": 1,
+                "value": "Popover"
+              },
+              {
+                "attributes": [],
+                "computedValue": "popover",
+                "displayName": "action",
+                "name": "action",
+                "type": 1,
+                "value": "popover"
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-popover-int",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "selection": {},
+    "site": "ipe",
+    "title": "Test Popover Int",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
   },
   {
     "contexts": [
@@ -29570,4 +29654,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-VA6JSNR3.js.map
+//# sourceMappingURL=chunk-NU7Q36Y2.js.map
