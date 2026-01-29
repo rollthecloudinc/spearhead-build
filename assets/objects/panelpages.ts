@@ -3288,7 +3288,7 @@ export const panelpages = [
 ,
 {
 	"contexts": [],
-	"displayType": "page",
+	"displayType": "form",
 	"entityPermissions": {
 		"deleteUserIds": [],
 		"readUserIds": [
@@ -3320,6 +3320,10 @@ export const panelpages = [
 					"label": "Sizes",
 					"locked": false,
 					"name": "sizes",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -3379,6 +3383,10 @@ export const panelpages = [
 					"label": "Size",
 					"locked": false,
 					"name": "size",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],

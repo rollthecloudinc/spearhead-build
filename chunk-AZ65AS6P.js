@@ -3548,7 +3548,7 @@ var panelpages2 = [
   },
   {
     "contexts": [],
-    "displayType": "page",
+    "displayType": "form",
     "entityPermissions": {
       "deleteUserIds": [],
       "readUserIds": [
@@ -3580,6 +3580,10 @@ var panelpages2 = [
             "label": "Sizes",
             "locked": false,
             "name": "sizes",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [],
@@ -3639,6 +3643,10 @@ var panelpages2 = [
             "label": "Size",
             "locked": false,
             "name": "size",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [],
@@ -30573,4 +30581,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-QDPE2373.js.map
+//# sourceMappingURL=chunk-AZ65AS6P.js.map

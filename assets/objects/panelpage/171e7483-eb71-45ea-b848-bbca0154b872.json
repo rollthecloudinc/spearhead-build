@@ -1,6 +1,6 @@
 {
 	"contexts": [],
-	"displayType": "page",
+	"displayType": "form",
 	"entityPermissions": {
 		"deleteUserIds": [],
 		"readUserIds": [
@@ -32,6 +32,10 @@
 					"label": "Sizes",
 					"locked": false,
 					"name": "sizes",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -91,6 +95,10 @@
 					"label": "Size",
 					"locked": false,
 					"name": "size",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
