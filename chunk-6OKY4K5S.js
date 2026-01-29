@@ -3653,11 +3653,11 @@ var panelpages2 = [
             "settings": [
               {
                 "attributes": [],
-                "computedValue": "[form__test-listbox-int.size]",
+                "computedValue": "[form__test-listbox-int.size[*]]",
                 "displayName": "value",
                 "name": "value",
                 "type": 1,
-                "value": "[form__test-listbox-int.size]"
+                "value": "[form__test-listbox-int.size[*]]"
               },
               {
                 "attributes": [
@@ -30760,4 +30760,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-43WX7HLN.js.map
+//# sourceMappingURL=chunk-6OKY4K5S.js.map
