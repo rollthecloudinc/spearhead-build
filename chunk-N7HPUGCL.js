@@ -252,6 +252,7 @@ var panelpages = [
   ["ef53a364-bca8-4f7a-a458-44138d423f5f", "/interactions-basic-example"],
   ["efac97c5-5253-4e42-87ab-73fbd82e96dd", "/test-menu-int"],
   ["f3ecdb90-080e-4791-afaf-073d43bc8228", "/justwork"],
+  ["f58d3b89-27a8-4bef-89c5-a8c5631ed838", "/test-lisbox-popover"],
   ["fbac7b08-0607-41e0-aebe-57d072b3c428", "/test-module-federation"],
   ["fc69e899-1c7d-47cc-bc63-260037d76381", "/test-simple-form"]
 ];
@@ -30123,6 +30124,182 @@ var panelpages2 = [
     "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
   },
   {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [],
+    "id": "f58d3b89-27a8-4bef-89c5-a8c5631ed838",
+    "interactions": {
+      "interactions": {
+        "listeners": [
+          {
+            "event": {
+              "plugin": "dom",
+              "settings": {
+                "params": [
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": "click",
+                      "type": "static",
+                      "value": "click"
+                    }
+                  },
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": ".action-open-filter",
+                      "type": "static",
+                      "value": ".action-open-filter"
+                    }
+                  }
+                ],
+                "paramsString": "type=:type&target=:target"
+              }
+            },
+            "handler": {
+              "plugin": "anchored_dialog",
+              "settings": {
+                "params": [
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": "171e7483-eb71-45ea-b848-bbca0154b872",
+                      "type": "static",
+                      "value": "171e7483-eb71-45ea-b848-bbca0154b872"
+                    }
+                  }
+                ],
+                "paramsString": "panelPageId=:panelPageId"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "gridless",
+    "name": "test-listbox-popover",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "icon_button",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "home",
+                "displayName": "iconName",
+                "name": "iconName",
+                "type": 1,
+                "value": "home"
+              },
+              {
+                "attributes": [],
+                "computedValue": "Open Filter",
+                "displayName": "ariaLabel",
+                "name": "ariaLabel",
+                "type": 1,
+                "value": "Open Filter"
+              },
+              {
+                "attributes": [],
+                "computedValue": "open-filter",
+                "displayName": "action",
+                "name": "action",
+                "type": 1,
+                "value": "open-filter"
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-lisbox-popover",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [],
+    "selection": {},
+    "site": "ipe",
+    "title": "Test Listbox Popover",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
     "contexts": [
       {
         "adaptor": "data",
@@ -30583,4 +30760,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-646UW6YA.js.map
+//# sourceMappingURL=chunk-N7HPUGCL.js.map
