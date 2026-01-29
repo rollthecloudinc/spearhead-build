@@ -224,6 +224,7 @@ var panelpages = [
   ["8ebbcdb3-300f-4739-8cb3-6c5d4c402638", "/am-charts-visual-editor-bar-chart-test"],
   ["95fe8adf-f60b-4e2e-bc02-9026a4531144", "/test-dialog-interaction"],
   ["96050a0f-cc1a-4a31-bc47-8c9fe065745a", "/hello-2025"],
+  ["9654475f-bff8-4283-b213-8c32767af7ee", "/test-icon-button-int"],
   ["a5291ca2-8fec-4011-9fc5-7574cbf944cc", "/justwork"],
   ["ad3dd72c-f153-4689-8da8-f94e01230457", "/hello-2025"],
   ["bad7cc2e-75fe-4137-9c36-d7777273ff80", "/upload-file-form"],
@@ -16890,6 +16891,152 @@ var panelpages2 = [
     "displayType": "page",
     "entityPermissions": {
       "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [],
+    "id": "9654475f-bff8-4283-b213-8c32767af7ee",
+    "interactions": {
+      "interactions": {
+        "listeners": [
+          {
+            "event": {
+              "plugin": "dom",
+              "settings": {
+                "params": [
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": "click",
+                      "type": "static",
+                      "value": "click"
+                    }
+                  },
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": ".action-home",
+                      "type": "static",
+                      "value": ".action-home"
+                    }
+                  }
+                ],
+                "paramsString": "type=:type&target=:target"
+              }
+            },
+            "handler": {
+              "plugin": "hello_world",
+              "settings": {}
+            }
+          }
+        ]
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "gridless",
+    "name": "test-icon-button-int",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "icon_button",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "home",
+                "displayName": "iconName",
+                "name": "iconName",
+                "type": 1,
+                "value": "home"
+              },
+              {
+                "attributes": [],
+                "computedValue": "Goto Home Page",
+                "displayName": "ariaLabel",
+                "name": "ariaLabel",
+                "type": 1,
+                "value": "Goto Home Page"
+              },
+              {
+                "attributes": [],
+                "computedValue": "home",
+                "displayName": "action",
+                "name": "action",
+                "type": 1,
+                "value": "home"
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-icon-button-int",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [],
+    "selection": {},
+    "site": "ipe",
+    "title": "Test Icon Button int",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
       "readUserIds": [],
       "writeUserIds": []
     },
@@ -30066,4 +30213,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-DQBRDKRZ.js.map
+//# sourceMappingURL=chunk-SHZIGZSD.js.map
