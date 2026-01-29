@@ -3313,6 +3313,8 @@ export const panelpages = [
 			"columnSetting": {
 				"settings": []
 			},
+			"label": "Listbox Form",
+			"name": "listbox_form",
 			"panes": [
 				{
 					"contentPlugin": "datasource",
