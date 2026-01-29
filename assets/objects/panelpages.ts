@@ -3392,11 +3392,11 @@ export const panelpages = [
 					"settings": [
 						{
 							"attributes": [],
-							"computedValue": "[form__test-listbox-int.size[*]]",
+							"computedValue": "[form__test-listbox-int.size]",
 							"displayName": "value",
 							"name": "value",
 							"type": 1,
-							"value": "[form__test-listbox-int.size[*]]"
+							"value": "[form__test-listbox-int.size]"
 						},
 						{
 							"attributes": [
