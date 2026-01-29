@@ -199,6 +199,7 @@ var panelpages = [
   ["0340ec29-fc39-4d4a-92ba-09caa0fb9d8f", "/test-gallery-int"],
   ["0904fb75-1311-4763-b6e3-043239fb3a89", "/homes"],
   ["0fa450de-6383-4873-bd2e-110f62d66e9d", "/test-sidenav-int"],
+  ["171e7483-eb71-45ea-b848-bbca0154b872", "/test-listbox-int"],
   ["200e4ab8-922c-4a9c-a760-77bce3facf92", "/hedge-test"],
   ["27dd9c10-c5e8-4997-b871-6084139baf65", "/test-popover-int"],
   ["286f9a5e-196d-4812-bd8a-235a164a1a97", "/am-charts-visual-editor-bar-chart-test"],
@@ -3543,6 +3544,218 @@ var panelpages2 = [
     ],
     "site": "ipe",
     "title": "Test Sidenav Int",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [],
+    "id": "171e7483-eb71-45ea-b848-bbca0154b872",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "gridless",
+    "name": "test-listbox-int",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "datasource",
+            "contexts": [],
+            "label": "Sizes",
+            "locked": false,
+            "name": "sizes",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "data",
+                "displayName": "plugin",
+                "name": "plugin",
+                "type": 1,
+                "value": "data"
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": '[{"id": "small", "name": "Small"},{"id": "medium", "name": "Medium"},{"id": "large", "name": "Large"},{"id": "xlarge", "name": "XLarge"},{"id": "xxlarge", "name": "XXLarge"}]',
+                    "displayName": "data",
+                    "name": "data",
+                    "type": 1,
+                    "value": '[{"id": "small", "name": "Small"},{"id": "medium", "name": "Medium"},{"id": "large", "name": "Large"},{"id": "xlarge", "name": "XLarge"},{"id": "xxlarge", "name": "XXLarge"}]'
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "settings",
+                "name": "settings",
+                "type": 2,
+                "value": null
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": "pane",
+                    "displayName": "type",
+                    "name": "type",
+                    "type": 1,
+                    "value": "pane"
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": null,
+                    "displayName": "bindings",
+                    "name": "bindings",
+                    "type": 4,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "renderer",
+                "name": "renderer",
+                "type": 2,
+                "value": null
+              }
+            ]
+          },
+          {
+            "contentPlugin": "form_listbox",
+            "contexts": [],
+            "label": "Size",
+            "locked": false,
+            "name": "size",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "",
+                "displayName": "value",
+                "name": "value",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": "pane",
+                    "displayName": "type",
+                    "name": "type",
+                    "type": 1,
+                    "value": "pane"
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": "sizes",
+                    "displayName": "id",
+                    "name": "id",
+                    "type": 1,
+                    "value": "sizes"
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "datasourceBinding",
+                "name": "datasourceBinding",
+                "type": 2,
+                "value": null
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": "",
+                    "displayName": "query",
+                    "name": "query",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": "",
+                    "displayName": "trackBy",
+                    "name": "trackBy",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": "[.id]",
+                    "displayName": "idMapping",
+                    "name": "idMapping",
+                    "type": 1,
+                    "value": "[.id]"
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": "[.name]",
+                    "displayName": "labelMapping",
+                    "name": "labelMapping",
+                    "type": 1,
+                    "value": "[.name]"
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": "[.id]",
+                    "displayName": "valueMapping",
+                    "name": "valueMapping",
+                    "type": 1,
+                    "value": "[.id]"
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": "true",
+                    "displayName": "multiple",
+                    "name": "multiple",
+                    "type": 5,
+                    "value": "true"
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": "",
+                    "displayName": "limit",
+                    "name": "limit",
+                    "type": 1,
+                    "value": ""
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "datasourceOptions",
+                "name": "datasourceOptions",
+                "type": 2,
+                "value": null
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/test-listbox-int",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [],
+    "selection": {},
+    "site": "ipe",
+    "title": "Test Listbox Int",
     "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
   },
   {
@@ -30360,4 +30573,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-4YX6KOVN.js.map
+//# sourceMappingURL=chunk-QDPE2373.js.map
