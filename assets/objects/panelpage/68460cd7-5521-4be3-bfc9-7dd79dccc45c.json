@@ -90,6 +90,7 @@
 						}
 					},
 					"handler": {
+						"plugin": "toggle_sidenav",
 						"settings": {}
 					}
 				}
@@ -159,6 +160,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],

@@ -13626,6 +13626,7 @@ export const panelpages = [
 						}
 					},
 					"handler": {
+						"plugin": "toggle_sidenav",
 						"settings": {}
 					}
 				}
@@ -13695,6 +13696,10 @@ export const panelpages = [
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
