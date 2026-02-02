@@ -13806,7 +13806,73 @@ var panelpages2 = [
     "id": "68460cd7-5521-4be3-bfc9-7dd79dccc45c",
     "interactions": {
       "interactions": {
-        "listeners": []
+        "listeners": [
+          {
+            "event": {
+              "plugin": "dom",
+              "settings": {
+                "params": [
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": "click",
+                      "type": "static",
+                      "value": "click"
+                    }
+                  },
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": ".action-toggle-sidenav",
+                      "type": "static",
+                      "value": ".action-toggle-sidenav"
+                    }
+                  }
+                ],
+                "paramsString": "type=:type&target=:target"
+              }
+            },
+            "handler": {
+              "settings": {}
+            }
+          }
+        ]
       }
     },
     "layoutSetting": {
@@ -13867,6 +13933,39 @@ var panelpages2 = [
         },
         "panes": [
           {
+            "contentPlugin": "icon_button",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "home",
+                "displayName": "iconName",
+                "name": "iconName",
+                "type": 1,
+                "value": "home"
+              },
+              {
+                "attributes": [],
+                "computedValue": "toggle sidenav",
+                "displayName": "ariaLabel",
+                "name": "ariaLabel",
+                "type": 1,
+                "value": "toggle sidenav"
+              },
+              {
+                "attributes": [],
+                "computedValue": "toggle-sidenav",
+                "displayName": "action",
+                "name": "action",
+                "type": 1,
+                "value": "toggle-sidenav"
+              }
+            ]
+          },
+          {
             "contentPlugin": "yield",
             "contexts": [],
             "label": "e2a35a54-4f5a-4628-b52d-b38f2da3e8b7",
@@ -13903,6 +14002,7 @@ var panelpages2 = [
         "settings": []
       }
     ],
+    "selection": {},
     "site": "ipe",
     "title": "Test Decorator",
     "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
@@ -30760,4 +30860,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-43WX7HLN.js.map
+//# sourceMappingURL=chunk-LGSUHTAP.js.map
