@@ -4543,7 +4543,74 @@ var panelpages2 = [
     "id": "3612c0ed-1542-4d4f-b982-ffc8f1862c5a",
     "interactions": {
       "interactions": {
-        "listeners": []
+        "listeners": [
+          {
+            "event": {
+              "plugin": "dom",
+              "settings": {
+                "params": [
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": "click",
+                      "type": "static",
+                      "value": "click"
+                    }
+                  },
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": ".action-detail",
+                      "type": "static",
+                      "value": ".action-detail"
+                    }
+                  }
+                ],
+                "paramsString": "type=:type&target=:target"
+              }
+            },
+            "handler": {
+              "plugin": "navigate",
+              "settings": {}
+            }
+          }
+        ]
       }
     },
     "layoutSetting": {
@@ -31861,4 +31928,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-EI2PXWMF.js.map
+//# sourceMappingURL=chunk-JTSQEEKC.js.map
