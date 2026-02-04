@@ -4307,14 +4307,18 @@ export const panelpages = [
 					"label": "View Button",
 					"locked": false,
 					"name": "view_button",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
-							"computedValue": "View",
+							"computedValue": "home",
 							"displayName": "text",
 							"name": "text",
 							"type": 1,
-							"value": "View"
+							"value": "home"
 						},
 						{
 							"attributes": [],
@@ -4508,6 +4512,10 @@ export const panelpages = [
 					"label": "ds",
 					"locked": false,
 					"name": "ds",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],

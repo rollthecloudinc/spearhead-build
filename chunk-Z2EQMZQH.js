@@ -4563,14 +4563,18 @@ var panelpages2 = [
             "label": "View Button",
             "locked": false,
             "name": "view_button",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [],
-                "computedValue": "View",
+                "computedValue": "home",
                 "displayName": "text",
                 "name": "text",
                 "type": 1,
-                "value": "View"
+                "value": "home"
               },
               {
                 "attributes": [],
@@ -4764,6 +4768,10 @@ var panelpages2 = [
             "label": "ds",
             "locked": false,
             "name": "ds",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [],
@@ -31853,4 +31861,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-DAES5URA.js.map
+//# sourceMappingURL=chunk-Z2EQMZQH.js.map
