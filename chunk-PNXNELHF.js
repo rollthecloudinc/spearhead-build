@@ -26251,6 +26251,607 @@ var panelpages2 = [
     "title": "native_forms_rebuild_v1",
     "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
   },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "bcd3d666-14de-4f34-bc80-fd4710c6df46",
+    "interactions": {
+      "interactions": {
+        "listeners": [
+          {
+            "event": {
+              "plugin": "dom",
+              "settings": {
+                "params": [
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": "click",
+                      "type": "static",
+                      "value": "click"
+                    }
+                  },
+                  {
+                    "flags": [
+                      {
+                        "enabled": false,
+                        "name": "page"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "limit"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "offset"
+                      },
+                      {
+                        "enabled": false,
+                        "name": "searchString"
+                      }
+                    ],
+                    "mapping": {
+                      "context": "",
+                      "testValue": ".action-toggle-sidenav",
+                      "type": "static",
+                      "value": ".action-toggle-sidenav"
+                    }
+                  }
+                ],
+                "paramsString": "type=:type&target=:target"
+              }
+            },
+            "handler": {
+              "plugin": "toggle_sidenav",
+              "settings": {}
+            }
+          }
+        ]
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "sidenav-layout",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "icon_button",
+            "contexts": [],
+            "label": "",
+            "locked": false,
+            "name": "",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "home",
+                "displayName": "iconName",
+                "name": "iconName",
+                "type": 1,
+                "value": "home"
+              },
+              {
+                "attributes": [],
+                "computedValue": "Toggle Sidenav",
+                "displayName": "ariaLabel",
+                "name": "ariaLabel",
+                "type": 1,
+                "value": "Toggle Sidenav"
+              },
+              {
+                "attributes": [],
+                "computedValue": "toggle-sidenav",
+                "displayName": "action",
+                "name": "action",
+                "type": 1,
+                "value": "toggle-sidenav"
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      },
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "panel",
+            "contexts": [],
+            "label": "603a3777-a9ce-4253-b518-1681be7de6f1",
+            "locked": false,
+            "name": "603a3777-a9ce-4253-b518-1681be7de6f1",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": null,
+                "displayName": "gridItems",
+                "name": "gridItems",
+                "type": 4,
+                "value": null
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [],
+                        "computedValue": null,
+                        "displayName": "settings",
+                        "name": "settings",
+                        "type": 2,
+                        "value": null
+                      },
+                      {
+                        "attributes": [
+                          {
+                            "attributes": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributes": [],
+                                    "computedValue": "text/html",
+                                    "displayName": "Content Type",
+                                    "name": "contentType",
+                                    "type": 1,
+                                    "value": "text/html"
+                                  },
+                                  {
+                                    "attributes": [],
+                                    "computedValue": "Left Nav",
+                                    "displayName": "Content",
+                                    "name": "content",
+                                    "type": 1,
+                                    "value": "Left Nav"
+                                  },
+                                  {
+                                    "attributes": [],
+                                    "computedValue": null,
+                                    "displayName": "jsScript",
+                                    "name": "jsScript",
+                                    "type": 1,
+                                    "value": null
+                                  }
+                                ],
+                                "computedValue": null,
+                                "displayName": "settings",
+                                "name": "settings",
+                                "type": 2,
+                                "value": null
+                              },
+                              {
+                                "attributes": [],
+                                "computedValue": "false",
+                                "displayName": "locked",
+                                "name": "locked",
+                                "type": 5,
+                                "value": "false"
+                              },
+                              {
+                                "attributes": [],
+                                "computedValue": null,
+                                "displayName": "contexts",
+                                "name": "contexts",
+                                "type": 4,
+                                "value": null
+                              },
+                              {
+                                "attributes": [],
+                                "computedValue": "",
+                                "displayName": "name",
+                                "name": "name",
+                                "type": 1,
+                                "value": ""
+                              },
+                              {
+                                "attributes": [],
+                                "computedValue": "",
+                                "displayName": "label",
+                                "name": "label",
+                                "type": 1,
+                                "value": ""
+                              },
+                              {
+                                "attributes": [],
+                                "computedValue": "snippet",
+                                "displayName": "contentPlugin",
+                                "name": "contentPlugin",
+                                "type": 1,
+                                "value": "snippet"
+                              }
+                            ],
+                            "computedValue": null,
+                            "displayName": "0",
+                            "name": "0",
+                            "type": 2,
+                            "value": null
+                          }
+                        ],
+                        "computedValue": null,
+                        "displayName": "panes",
+                        "name": "panes",
+                        "type": 4,
+                        "value": null
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "undefined",
+                        "displayName": "name",
+                        "name": "name",
+                        "type": 0,
+                        "value": "undefined"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "undefined",
+                        "displayName": "label",
+                        "name": "label",
+                        "type": 0,
+                        "value": "undefined"
+                      },
+                      {
+                        "attributes": [],
+                        "computedValue": "",
+                        "displayName": "stylePlugin",
+                        "name": "stylePlugin",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "attributes": [
+                          {
+                            "attributes": [],
+                            "computedValue": null,
+                            "displayName": "settings",
+                            "name": "settings",
+                            "type": 2,
+                            "value": null
+                          }
+                        ],
+                        "computedValue": null,
+                        "displayName": "columnSetting",
+                        "name": "columnSetting",
+                        "type": 2,
+                        "value": null
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "0",
+                    "name": "0",
+                    "type": 2,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "panels",
+                "name": "panels",
+                "type": 4,
+                "value": null
+              },
+              {
+                "attributes": [],
+                "computedValue": null,
+                "displayName": "contexts",
+                "name": "contexts",
+                "type": 4,
+                "value": null
+              },
+              {
+                "attributes": [],
+                "computedValue": null,
+                "displayName": "rowSettings",
+                "name": "rowSettings",
+                "type": 4,
+                "value": null
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": null,
+                    "displayName": "readUserIds",
+                    "name": "readUserIds",
+                    "type": 4,
+                    "value": null
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": null,
+                    "displayName": "writeUserIds",
+                    "name": "writeUserIds",
+                    "type": 4,
+                    "value": null
+                  },
+                  {
+                    "attributes": [],
+                    "computedValue": null,
+                    "displayName": "deleteUserIds",
+                    "name": "deleteUserIds",
+                    "type": 4,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "entityPermissions",
+                "name": "entityPermissions",
+                "type": 2,
+                "value": null
+              },
+              {
+                "attributes": [],
+                "computedValue": "undefined",
+                "displayName": "id",
+                "name": "id",
+                "type": 0,
+                "value": "undefined"
+              },
+              {
+                "attributes": [],
+                "computedValue": "gridless",
+                "displayName": "layoutType",
+                "name": "layoutType",
+                "type": 1,
+                "value": "gridless"
+              },
+              {
+                "attributes": [],
+                "computedValue": "page",
+                "displayName": "displayType",
+                "name": "displayType",
+                "type": 1,
+                "value": "page"
+              },
+              {
+                "attributes": [],
+                "computedValue": "undefined",
+                "displayName": "name",
+                "name": "name",
+                "type": 0,
+                "value": "undefined"
+              },
+              {
+                "attributes": [],
+                "computedValue": "undefined",
+                "displayName": "title",
+                "name": "title",
+                "type": 0,
+                "value": "undefined"
+              },
+              {
+                "attributes": [],
+                "computedValue": "ipe",
+                "displayName": "site",
+                "name": "site",
+                "type": 1,
+                "value": "ipe"
+              },
+              {
+                "attributes": [],
+                "computedValue": "undefined",
+                "displayName": "userId",
+                "name": "userId",
+                "type": 0,
+                "value": "undefined"
+              },
+              {
+                "attributes": [],
+                "computedValue": "undefined",
+                "displayName": "path",
+                "name": "path",
+                "type": 0,
+                "value": "undefined"
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [],
+                        "computedValue": null,
+                        "displayName": "settings",
+                        "name": "settings",
+                        "type": 2,
+                        "value": null
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "dataduct",
+                    "name": "dataduct",
+                    "type": 2,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "persistence",
+                "name": "persistence",
+                "type": 2,
+                "value": null
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [],
+                        "computedValue": null,
+                        "displayName": "listeners",
+                        "name": "listeners",
+                        "type": 4,
+                        "value": null
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "interactions",
+                    "name": "interactions",
+                    "type": 2,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "interactions",
+                "name": "interactions",
+                "type": 2,
+                "value": null
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": "undefined",
+                    "displayName": "route",
+                    "name": "route",
+                    "type": 0,
+                    "value": "undefined"
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "prerender",
+                "name": "prerender",
+                "type": 2,
+                "value": null
+              },
+              {
+                "attributes": [],
+                "computedValue": null,
+                "displayName": "selection",
+                "name": "selection",
+                "type": 2,
+                "value": null
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": null,
+                    "displayName": "settings",
+                    "name": "settings",
+                    "type": 2,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "layoutSetting",
+                "name": "layoutSetting",
+                "type": 2,
+                "value": null
+              }
+            ]
+          },
+          {
+            "contentPlugin": "yield",
+            "contexts": [],
+            "label": "eb1b1723-8314-4624-9c16-0f592c7a161d",
+            "locked": true,
+            "name": "eb1b1723-8314-4624-9c16-0f592c7a161d",
+            "settings": []
+          }
+        ],
+        "settings": [
+          {
+            "attributes": [],
+            "computedValue": "side",
+            "displayName": "mode",
+            "name": "mode",
+            "type": 1,
+            "value": "side"
+          },
+          {
+            "attributes": [],
+            "computedValue": "start",
+            "displayName": "position",
+            "name": "position",
+            "type": 1,
+            "value": "start"
+          },
+          {
+            "attributes": [],
+            "computedValue": "false",
+            "displayName": "opened",
+            "name": "opened",
+            "type": 5,
+            "value": "false"
+          },
+          {
+            "attributes": [],
+            "computedValue": "300",
+            "displayName": "width",
+            "name": "width",
+            "type": 0,
+            "value": "300"
+          }
+        ],
+        "stylePlugin": "sidenav"
+      },
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "*",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [
+      {
+        "settings": []
+      },
+      {
+        "settings": []
+      }
+    ],
+    "selection": {},
+    "site": "ipe",
+    "title": "Sidenav Layout",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
   { "contexts": [], "cssFile": "", "derivativeId": "", "displayType": "page", "entityPermissions": { "deleteUserIds": ["e36b42fe-b09c-4514-a519-e178bb52957e"], "readUserIds": ["*"], "writeUserIds": ["e36b42fe-b09c-4514-a519-e178bb52957e"] }, "gridItems": [{ "cols": 100, "rows": 1, "weight": 0, "x": 0, "y": 0 }], "id": "bd29f806-3b4b-4b79-9dac-7a5ae221f432", "layoutSetting": { "settings": [] }, "layoutType": "split", "name": "hello_world", "panels": [{ "columnSetting": { "settings": [] }, "label": "", "name": "", "panes": [{ "contentPlugin": "snippet", "label": "", "linkedPageId": "", "locked": false, "name": "", "rule": { "condition": "", "field": "", "operator": "", "rules": null, "value": "" }, "settings": [{ "attributes": [], "computedValue": "text/html", "displayName": "Content Type", "floatValue": 0, "intValue": 0, "name": "contentType", "type": 1, "value": "text/html" }, { "attributes": [], "computedValue": "Hello World", "displayName": "Content", "floatValue": 0, "intValue": 0, "name": "content", "type": 1, "value": "Hello World" }, { "attributes": [], "computedValue": "", "displayName": "jsScript", "floatValue": 0, "intValue": 0, "name": "jsScript", "type": 1, "value": "" }] }], "settings": [], "stylePlugin": "" }], "path": "/hello-world", "persistence": { "dataduct": { "plugin": "", "settings": [] } }, "rowSettings": [{ "settings": [] }], "site": "spearhead", "title": "Hello World", "userId": "e36b42fe-b09c-4514-a519-e178bb52957e" },
   {
     "contexts": [],
@@ -30865,4 +31466,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-QG6GE5UA.js.map
+//# sourceMappingURL=chunk-PNXNELHF.js.map
