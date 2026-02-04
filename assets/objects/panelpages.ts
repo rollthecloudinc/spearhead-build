@@ -4352,19 +4352,19 @@ export const panelpages = [
 												},
 												{
 													"attributes": [],
-													"computedValue": "[.id]",
+													"computedValue": "[_root.id]",
 													"displayName": "value",
 													"name": "value",
 													"type": 1,
-													"value": "[.id]"
+													"value": "[_root.id]"
 												},
 												{
 													"attributes": [],
-													"computedValue": "[.id]",
+													"computedValue": "[_root.id]",
 													"displayName": "testValue",
 													"name": "testValue",
 													"type": 1,
-													"value": "[.id]"
+													"value": "[_root.id]"
 												},
 												{
 													"attributes": [],
