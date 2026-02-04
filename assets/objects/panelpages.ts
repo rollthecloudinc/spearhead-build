@@ -26000,6 +26000,13 @@ export const panelpages = [
 			"weight": 0,
 			"x": 0,
 			"y": 0
+		},
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 1,
+			"x": 0,
+			"y": 1
 		}
 	],
 	"id": "bcd3d666-14de-4f34-bc80-fd4710c6df46",
@@ -26092,6 +26099,10 @@ export const panelpages = [
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -26134,6 +26145,10 @@ export const panelpages = [
 					"label": "603a3777-a9ce-4253-b518-1681be7de6f1",
 					"locked": false,
 					"name": "603a3777-a9ce-4253-b518-1681be7de6f1",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -26516,6 +26531,10 @@ export const panelpages = [
 					"label": "eb1b1723-8314-4624-9c16-0f592c7a161d",
 					"locked": true,
 					"name": "eb1b1723-8314-4624-9c16-0f592c7a161d",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": []
 				}
 			],
@@ -26562,6 +26581,14 @@ export const panelpages = [
 			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
 		}
 	],
 	"path": "*",
@@ -26577,9 +26604,24 @@ export const panelpages = [
 		},
 		{
 			"settings": []
+		},
+		{
+			"settings": []
 		}
 	],
-	"selection": {},
+	"selection": {
+		"priority": 0,
+		"rule": {
+			"condition": "and",
+			"rules": [
+				{
+					"field": "_route.path",
+					"operator": "=",
+					"value": "/pages/panelpage/888b9746-9cc1-43dc-8edb-1868e64b36a5"
+				}
+			]
+		}
+	},
 	"site": "ipe",
 	"title": "Sidenav Layout",
 	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"

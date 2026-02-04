@@ -26268,6 +26268,13 @@ var panelpages2 = [
         "weight": 0,
         "x": 0,
         "y": 0
+      },
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 1,
+        "x": 0,
+        "y": 1
       }
     ],
     "id": "bcd3d666-14de-4f34-bc80-fd4710c6df46",
@@ -26360,6 +26367,10 @@ var panelpages2 = [
             "label": "",
             "locked": false,
             "name": "",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [],
@@ -26402,6 +26413,10 @@ var panelpages2 = [
             "label": "603a3777-a9ce-4253-b518-1681be7de6f1",
             "locked": false,
             "name": "603a3777-a9ce-4253-b518-1681be7de6f1",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": [
               {
                 "attributes": [],
@@ -26784,6 +26799,10 @@ var panelpages2 = [
             "label": "eb1b1723-8314-4624-9c16-0f592c7a161d",
             "locked": true,
             "name": "eb1b1723-8314-4624-9c16-0f592c7a161d",
+            "rule": {
+              "condition": "",
+              "rules": []
+            },
             "settings": []
           }
         ],
@@ -26830,6 +26849,14 @@ var panelpages2 = [
         "panes": [],
         "settings": [],
         "stylePlugin": ""
+      },
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [],
+        "settings": [],
+        "stylePlugin": ""
       }
     ],
     "path": "*",
@@ -26845,9 +26872,24 @@ var panelpages2 = [
       },
       {
         "settings": []
+      },
+      {
+        "settings": []
       }
     ],
-    "selection": {},
+    "selection": {
+      "priority": 0,
+      "rule": {
+        "condition": "and",
+        "rules": [
+          {
+            "field": "_route.path",
+            "operator": "=",
+            "value": "/pages/panelpage/888b9746-9cc1-43dc-8edb-1868e64b36a5"
+          }
+        ]
+      }
+    },
     "site": "ipe",
     "title": "Sidenav Layout",
     "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
@@ -31466,4 +31508,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-PNXNELHF.js.map
+//# sourceMappingURL=chunk-LQ2RJVXR.js.map
