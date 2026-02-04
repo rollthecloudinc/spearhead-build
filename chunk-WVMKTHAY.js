@@ -4785,11 +4785,11 @@ var panelpages2 = [
                 "attributes": [
                   {
                     "attributes": [],
-                    "computedValue": '[{"id": 1},{"id":2},{id":3}]',
+                    "computedValue": '[{"id": 1},{"id":2},{"id":3}]',
                     "displayName": "data",
                     "name": "data",
                     "type": 1,
-                    "value": '[{"id": 1},{"id":2},{id":3}]'
+                    "value": '[{"id": 1},{"id":2},{"id":3}]'
                   }
                 ],
                 "computedValue": null,
@@ -31861,4 +31861,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-Z2EQMZQH.js.map
+//# sourceMappingURL=chunk-WVMKTHAY.js.map

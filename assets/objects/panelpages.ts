@@ -4529,11 +4529,11 @@ export const panelpages = [
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "[{\"id\": 1},{\"id\":2},{id\":3}]",
+									"computedValue": "[{\"id\": 1},{\"id\":2},{\"id\":3}]",
 									"displayName": "data",
 									"name": "data",
 									"type": 1,
-									"value": "[{\"id\": 1},{\"id\":2},{id\":3}]"
+									"value": "[{\"id\": 1},{\"id\":2},{\"id\":3}]"
 								}
 							],
 							"computedValue": null,
