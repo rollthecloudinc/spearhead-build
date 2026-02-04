@@ -4675,19 +4675,19 @@ var panelpages2 = [
                           },
                           {
                             "attributes": [],
-                            "computedValue": "/detail/[.id]",
+                            "computedValue": "/button-params/detail/[.id]",
                             "displayName": "value",
                             "name": "value",
                             "type": 1,
-                            "value": "/detail/[.id]"
+                            "value": "/button-params/detail/[.id]"
                           },
                           {
                             "attributes": [],
-                            "computedValue": "/detail/[.id]",
+                            "computedValue": "/button-params/detail/[.id]",
                             "displayName": "testValue",
                             "name": "testValue",
                             "type": 1,
-                            "value": "/detail/[.id]"
+                            "value": "/button-params/detail/[.id]"
                           },
                           {
                             "attributes": [],
@@ -31928,4 +31928,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-JTSQEEKC.js.map
+//# sourceMappingURL=chunk-PZTJ5LPN.js.map

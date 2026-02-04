@@ -4419,19 +4419,19 @@ export const panelpages = [
 												},
 												{
 													"attributes": [],
-													"computedValue": "/detail/[.id]",
+													"computedValue": "/button-params/detail/[.id]",
 													"displayName": "value",
 													"name": "value",
 													"type": 1,
-													"value": "/detail/[.id]"
+													"value": "/button-params/detail/[.id]"
 												},
 												{
 													"attributes": [],
-													"computedValue": "/detail/[.id]",
+													"computedValue": "/button-params/detail/[.id]",
 													"displayName": "testValue",
 													"name": "testValue",
 													"type": 1,
-													"value": "/detail/[.id]"
+													"value": "/button-params/detail/[.id]"
 												},
 												{
 													"attributes": [],
