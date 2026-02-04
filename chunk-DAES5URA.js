@@ -205,6 +205,7 @@ var panelpages = [
   ["286f9a5e-196d-4812-bd8a-235a164a1a97", "/am-charts-visual-editor-bar-chart-test"],
   ["2d94ada8-53f4-4e45-b7e5-8c07c796856d", "/test-datasource-select-v1"],
   ["34f3542f-bada-4a46-a91d-25c22bb30e4f", "/test-popover-int"],
+  ["3612c0ed-1542-4d4f-b982-ffc8f1862c5a", "/button-params"],
   ["37ebba18-506d-41c4-bff7-b6ef0affa67d", "/homes"],
   ["39d909df-81b4-486d-ba80-8fab88a14f9f", "/range-slider-test"],
   ["41cc92a0-bd34-4c06-a386-bd61b89bced8", "/homes"],
@@ -4518,6 +4519,350 @@ var panelpages2 = [
     "selection": {},
     "site": "ipe",
     "title": "Test Popover Int",
+    "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+  },
+  {
+    "contexts": [],
+    "displayType": "page",
+    "entityPermissions": {
+      "deleteUserIds": [],
+      "readUserIds": [
+        "*"
+      ],
+      "writeUserIds": []
+    },
+    "gridItems": [
+      {
+        "cols": 100,
+        "rows": 1,
+        "weight": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "id": "3612c0ed-1542-4d4f-b982-ffc8f1862c5a",
+    "interactions": {
+      "interactions": {
+        "listeners": []
+      }
+    },
+    "layoutSetting": {
+      "settings": []
+    },
+    "layoutType": "split",
+    "name": "button-params",
+    "panels": [
+      {
+        "columnSetting": {
+          "settings": []
+        },
+        "panes": [
+          {
+            "contentPlugin": "button",
+            "contexts": [],
+            "label": "View Button",
+            "locked": false,
+            "name": "view_button",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "View",
+                "displayName": "text",
+                "name": "text",
+                "type": 1,
+                "value": "View"
+              },
+              {
+                "attributes": [],
+                "computedValue": "detail",
+                "displayName": "action",
+                "name": "action",
+                "type": 1,
+                "value": "detail"
+              },
+              {
+                "attributes": [],
+                "computedValue": "id=:id",
+                "displayName": "paramsString",
+                "name": "paramsString",
+                "type": 1,
+                "value": "id=:id"
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [
+                          {
+                            "attributes": [],
+                            "computedValue": "static",
+                            "displayName": "type",
+                            "name": "type",
+                            "type": 1,
+                            "value": "static"
+                          },
+                          {
+                            "attributes": [],
+                            "computedValue": "[.id]",
+                            "displayName": "value",
+                            "name": "value",
+                            "type": 1,
+                            "value": "[.id]"
+                          },
+                          {
+                            "attributes": [],
+                            "computedValue": "[.id]",
+                            "displayName": "testValue",
+                            "name": "testValue",
+                            "type": 1,
+                            "value": "[.id]"
+                          },
+                          {
+                            "attributes": [],
+                            "computedValue": "",
+                            "displayName": "context",
+                            "name": "context",
+                            "type": 1,
+                            "value": ""
+                          }
+                        ],
+                        "computedValue": null,
+                        "displayName": "mapping",
+                        "name": "mapping",
+                        "type": 2,
+                        "value": null
+                      },
+                      {
+                        "attributes": [
+                          {
+                            "attributes": [
+                              {
+                                "attributes": [],
+                                "computedValue": "page",
+                                "displayName": "name",
+                                "name": "name",
+                                "type": 1,
+                                "value": "page"
+                              },
+                              {
+                                "attributes": [],
+                                "computedValue": "false",
+                                "displayName": "enabled",
+                                "name": "enabled",
+                                "type": 5,
+                                "value": "false"
+                              }
+                            ],
+                            "computedValue": null,
+                            "displayName": "0",
+                            "name": "0",
+                            "type": 2,
+                            "value": null
+                          },
+                          {
+                            "attributes": [
+                              {
+                                "attributes": [],
+                                "computedValue": "limit",
+                                "displayName": "name",
+                                "name": "name",
+                                "type": 1,
+                                "value": "limit"
+                              },
+                              {
+                                "attributes": [],
+                                "computedValue": "false",
+                                "displayName": "enabled",
+                                "name": "enabled",
+                                "type": 5,
+                                "value": "false"
+                              }
+                            ],
+                            "computedValue": null,
+                            "displayName": "1",
+                            "name": "1",
+                            "type": 2,
+                            "value": null
+                          },
+                          {
+                            "attributes": [
+                              {
+                                "attributes": [],
+                                "computedValue": "offset",
+                                "displayName": "name",
+                                "name": "name",
+                                "type": 1,
+                                "value": "offset"
+                              },
+                              {
+                                "attributes": [],
+                                "computedValue": "false",
+                                "displayName": "enabled",
+                                "name": "enabled",
+                                "type": 5,
+                                "value": "false"
+                              }
+                            ],
+                            "computedValue": null,
+                            "displayName": "2",
+                            "name": "2",
+                            "type": 2,
+                            "value": null
+                          },
+                          {
+                            "attributes": [
+                              {
+                                "attributes": [],
+                                "computedValue": "searchString",
+                                "displayName": "name",
+                                "name": "name",
+                                "type": 1,
+                                "value": "searchString"
+                              },
+                              {
+                                "attributes": [],
+                                "computedValue": "false",
+                                "displayName": "enabled",
+                                "name": "enabled",
+                                "type": 5,
+                                "value": "false"
+                              }
+                            ],
+                            "computedValue": null,
+                            "displayName": "3",
+                            "name": "3",
+                            "type": 2,
+                            "value": null
+                          }
+                        ],
+                        "computedValue": null,
+                        "displayName": "flags",
+                        "name": "flags",
+                        "type": 4,
+                        "value": null
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "0",
+                    "name": "0",
+                    "type": 2,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "params",
+                "name": "params",
+                "type": 4,
+                "value": null
+              }
+            ]
+          },
+          {
+            "contentPlugin": "datasource",
+            "contexts": [],
+            "label": "ds",
+            "locked": false,
+            "name": "ds",
+            "settings": [
+              {
+                "attributes": [],
+                "computedValue": "data",
+                "displayName": "plugin",
+                "name": "plugin",
+                "type": 1,
+                "value": "data"
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": '[{"id": 1},{"id":2},{id":3}]',
+                    "displayName": "data",
+                    "name": "data",
+                    "type": 1,
+                    "value": '[{"id": 1},{"id":2},{id":3}]'
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "settings",
+                "name": "settings",
+                "type": 2,
+                "value": null
+              },
+              {
+                "attributes": [
+                  {
+                    "attributes": [],
+                    "computedValue": "pane",
+                    "displayName": "type",
+                    "name": "type",
+                    "type": 1,
+                    "value": "pane"
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "attributes": [
+                          {
+                            "attributes": [],
+                            "computedValue": "pane",
+                            "displayName": "type",
+                            "name": "type",
+                            "type": 1,
+                            "value": "pane"
+                          },
+                          {
+                            "attributes": [],
+                            "computedValue": "view_button",
+                            "displayName": "id",
+                            "name": "id",
+                            "type": 1,
+                            "value": "view_button"
+                          }
+                        ],
+                        "computedValue": null,
+                        "displayName": "0",
+                        "name": "0",
+                        "type": 2,
+                        "value": null
+                      }
+                    ],
+                    "computedValue": null,
+                    "displayName": "bindings",
+                    "name": "bindings",
+                    "type": 4,
+                    "value": null
+                  }
+                ],
+                "computedValue": null,
+                "displayName": "renderer",
+                "name": "renderer",
+                "type": 2,
+                "value": null
+              }
+            ]
+          }
+        ],
+        "settings": [],
+        "stylePlugin": ""
+      }
+    ],
+    "path": "/button-params",
+    "persistence": {
+      "dataduct": {
+        "settings": []
+      }
+    },
+    "prerender": {},
+    "rowSettings": [
+      {
+        "settings": []
+      }
+    ],
+    "selection": {},
+    "site": "ipe",
+    "title": "Button Params",
     "userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
   },
   {
@@ -31508,4 +31853,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-LQ2RJVXR.js.map
+//# sourceMappingURL=chunk-DAES5URA.js.map

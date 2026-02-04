@@ -4284,6 +4284,351 @@ export const panelpages = [
 			"y": 0
 		}
 	],
+	"id": "3612c0ed-1542-4d4f-b982-ffc8f1862c5a",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "button-params",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "View Button",
+					"locked": false,
+					"name": "view_button",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "View",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "View"
+						},
+						{
+							"attributes": [],
+							"computedValue": "detail",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": "detail"
+						},
+						{
+							"attributes": [],
+							"computedValue": "id=:id",
+							"displayName": "paramsString",
+							"name": "paramsString",
+							"type": 1,
+							"value": "id=:id"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "static",
+													"displayName": "type",
+													"name": "type",
+													"type": 1,
+													"value": "static"
+												},
+												{
+													"attributes": [],
+													"computedValue": "[.id]",
+													"displayName": "value",
+													"name": "value",
+													"type": 1,
+													"value": "[.id]"
+												},
+												{
+													"attributes": [],
+													"computedValue": "[.id]",
+													"displayName": "testValue",
+													"name": "testValue",
+													"type": 1,
+													"value": "[.id]"
+												},
+												{
+													"attributes": [],
+													"computedValue": "",
+													"displayName": "context",
+													"name": "context",
+													"type": 1,
+													"value": ""
+												}
+											],
+											"computedValue": null,
+											"displayName": "mapping",
+											"name": "mapping",
+											"type": 2,
+											"value": null
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [
+														{
+															"attributes": [],
+															"computedValue": "page",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "page"
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "enabled",
+															"name": "enabled",
+															"type": 5,
+															"value": "false"
+														}
+													],
+													"computedValue": null,
+													"displayName": "0",
+													"name": "0",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [],
+															"computedValue": "limit",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "limit"
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "enabled",
+															"name": "enabled",
+															"type": 5,
+															"value": "false"
+														}
+													],
+													"computedValue": null,
+													"displayName": "1",
+													"name": "1",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [],
+															"computedValue": "offset",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "offset"
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "enabled",
+															"name": "enabled",
+															"type": 5,
+															"value": "false"
+														}
+													],
+													"computedValue": null,
+													"displayName": "2",
+													"name": "2",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [],
+															"computedValue": "searchString",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "searchString"
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "enabled",
+															"name": "enabled",
+															"type": 5,
+															"value": "false"
+														}
+													],
+													"computedValue": null,
+													"displayName": "3",
+													"name": "3",
+													"type": 2,
+													"value": null
+												}
+											],
+											"computedValue": null,
+											"displayName": "flags",
+											"name": "flags",
+											"type": 4,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "0",
+									"name": "0",
+									"type": 2,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "params",
+							"name": "params",
+							"type": 4,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "ds",
+					"locked": false,
+					"name": "ds",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "[{\"id\": 1},{\"id\":2},{id\":3}]",
+									"displayName": "data",
+									"name": "data",
+									"type": 1,
+									"value": "[{\"id\": 1},{\"id\":2},{id\":3}]"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "pane",
+													"displayName": "type",
+													"name": "type",
+													"type": 1,
+													"value": "pane"
+												},
+												{
+													"attributes": [],
+													"computedValue": "view_button",
+													"displayName": "id",
+													"name": "id",
+													"type": 1,
+													"value": "view_button"
+												}
+											],
+											"computedValue": null,
+											"displayName": "0",
+											"name": "0",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/button-params",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"selection": {},
+	"site": "ipe",
+	"title": "Button Params",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
+,
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
 	"id": "37ebba18-506d-41c4-bff7-b6ef0affa67d",
 	"interactions": {
 		"interactions": {
