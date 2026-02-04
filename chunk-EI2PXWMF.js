@@ -4586,11 +4586,11 @@ var panelpages2 = [
               },
               {
                 "attributes": [],
-                "computedValue": "id=:id",
+                "computedValue": "path=:path",
                 "displayName": "paramsString",
                 "name": "paramsString",
                 "type": 1,
-                "value": "id=:id"
+                "value": "path=:path"
               },
               {
                 "attributes": [
@@ -4608,19 +4608,19 @@ var panelpages2 = [
                           },
                           {
                             "attributes": [],
-                            "computedValue": "[.id]",
+                            "computedValue": "/detail/[.id]",
                             "displayName": "value",
                             "name": "value",
                             "type": 1,
-                            "value": "[.id]"
+                            "value": "/detail/[.id]"
                           },
                           {
                             "attributes": [],
-                            "computedValue": "[.id]",
+                            "computedValue": "/detail/[.id]",
                             "displayName": "testValue",
                             "name": "testValue",
                             "type": 1,
-                            "value": "[.id]"
+                            "value": "/detail/[.id]"
                           },
                           {
                             "attributes": [],
@@ -31861,4 +31861,4 @@ var AppModule = class _AppModule {
 
 // projects/spear/src/bootstrap.ts
 __NgCli_bootstrap_1.platformBrowser().bootstrapModule(AppModule).catch((err) => console.error(err));
-//# sourceMappingURL=chunk-WVMKTHAY.js.map
+//# sourceMappingURL=chunk-EI2PXWMF.js.map

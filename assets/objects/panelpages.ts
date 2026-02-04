@@ -4330,11 +4330,11 @@ export const panelpages = [
 						},
 						{
 							"attributes": [],
-							"computedValue": "id=:id",
+							"computedValue": "path=:path",
 							"displayName": "paramsString",
 							"name": "paramsString",
 							"type": 1,
-							"value": "id=:id"
+							"value": "path=:path"
 						},
 						{
 							"attributes": [
@@ -4352,19 +4352,19 @@ export const panelpages = [
 												},
 												{
 													"attributes": [],
-													"computedValue": "[.id]",
+													"computedValue": "/detail/[.id]",
 													"displayName": "value",
 													"name": "value",
 													"type": 1,
-													"value": "[.id]"
+													"value": "/detail/[.id]"
 												},
 												{
 													"attributes": [],
-													"computedValue": "[.id]",
+													"computedValue": "/detail/[.id]",
 													"displayName": "testValue",
 													"name": "testValue",
 													"type": 1,
-													"value": "[.id]"
+													"value": "/detail/[.id]"
 												},
 												{
 													"attributes": [],
